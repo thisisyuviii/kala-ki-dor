@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Handcrafted Catalog | Kala ki Dor</title>
+    <meta name="description" content="Browse all handcrafted crochet, chenille flowers, potli bags, tote bags, specs holders, sunglass covers, and keychains by Kala ki Dor.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .catalog-header-banner {
+            background: linear-gradient(135deg, #072635 0%, #0c3e4d 100%);
+            color: #ffffff;
+            padding: 56px 0;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .catalog-header-banner h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        .catalog-header-banner p {
+            font-size: 1.15rem;
+            color: #e2f1f5;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .catalog-filter-bar {
+            max-width: 1380px;
+            margin: 0 auto 36px auto;
+            padding: 0 32px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            overflow-x: auto;
+            padding-bottom: 12px;
+        }
+
+        .filter-btn {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            padding: 10px 22px;
+            border-radius: var(--radius-pill);
+            font-size: 0.92rem;
+            font-weight: 600;
+            color: #475569;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: var(--transition-smooth);
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background: var(--hero-bg-dark);
+            color: #ffffff;
+            border-color: var(--hero-bg-dark);
+        }
+
+        .catalog-grid-wrapper {
+            max-width: 1380px;
+            margin: 0 auto 80px auto;
+            padding: 0 32px;
+        }
+
+        .catalog-results-count {
+            margin-bottom: 24px;
+            font-size: 1rem;
+            color: #64748b;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOP TAB / NAVIGATION BAR -->
+    <header class="top-nav-header">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo" id="brandLogo">
+                <span class="logo-accent">KALA</span> KI DOR
+            </a>
+            <nav class="nav-tabs">
+                <ul class="tab-list">
+                    <li class="tab-item"><a href="index.html" class="tab-link">Home</a></li>
+                    <li class="tab-item"><a href="catalog.html" class="tab-link active">Catalog</a></li>
+                    <li class="tab-item"><a href="index.html#about-us-section" class="tab-link">About Us</a></li>
+                    <li class="tab-item"><a href="index.html#contact" class="tab-link">Get In Touch</a></li>
+                    <li class="tab-item"><a href="index.html#return-policy" class="tab-link">Return Policy</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <a href="index.html#contact" class="get-in-touch-btn">Get in touch</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- BANNER -->
+    <section class="catalog-header-banner">
+        <h1>Handcrafted Creations Catalog</h1>
+        <p>Explore all unique products handmade with love by traditional craftswomen across our artisan clusters.</p>
+    </section>
+
+    <!-- FILTER BAR -->
+    <div class="catalog-filter-bar" id="categoryFilterBar">
+        <button class="filter-btn active" data-filter="all">All Products (163)</button>
+        <button class="filter-btn" data-filter="flowers">🌸 Flowers (50)</button>
+        <button class="filter-btn" data-filter="key-chains">🔑 Key Chains (16)</button>
+        <button class="filter-btn" data-filter="potli-bags">👛 Potli Bags (5)</button>
+        <button class="filter-btn" data-filter="specs-holder">🕶️ Specs Holder (7)</button>
+        <button class="filter-btn" data-filter="sunglass-cover">👓 Sunglass Cover (14)</button>
+        <button class="filter-btn" data-filter="tote-bags">👜 Tote Bags (4)</button>
+        <button class="filter-btn" data-filter="toys">🧸 Toys</button>
+    </div>
+
+    <!-- PRODUCTS GRID -->
+    <main class="catalog-grid-wrapper">
+        <div class="catalog-results-count" id="resultsCount">Showing all handcrafted items</div>
+        <div class="product-grid-container" id="catalogProductsGrid">
+            <!-- Dynamic Product Cards rendered via JavaScript -->
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="brand-logo"><span class="logo-accent">KALA</span> KI DOR</a>
+                <p>Craft with Love, Sold for a Cause. A living tribute to Navya.</p>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Kala ki Dor. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="products_data.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const grid = document.getElementById('catalogProductsGrid');
+            const countLabel = document.getElementById('resultsCount');
+            const filterBtns = document.querySelectorAll('.filter-btn');
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const initialCategory = urlParams.get('category') || 'all';
+
+            function renderProducts(filter) {
+                grid.innerHTML = '';
+                const filtered = filter === 'all' 
+                    ? KALA_PRODUCTS 
+                    : KALA_PRODUCTS.filter(p => p.categorySlug === filter);
+
+                countLabel.textContent = `Showing ${filtered.length} handcrafted items`;
+
+                filtered.forEach(prod => {
+                    const card = document.createElement('div');
+                    card.className = 'single-product-card';
+                    card.innerHTML = `
+                        <div class="card-img-wrapper">
+                            <img src="${prod.image}" alt="${prod.title}" loading="lazy">
+                        </div>
+                        <div class="card-content">
+                            <div>
+                                <span class="card-category-label">${prod.category}</span>
+                                <h3 class="card-product-title">${prod.title}</h3>
+                            </div>
+                            <div class="card-footer">
+                                <span class="card-price">${prod.price}</span>
+                                <a href="product-detail.html?id=${prod.id}" class="card-view-btn">View Product &rarr;</a>
+                            </div>
+                        </div>
+                    `;
+                    grid.appendChild(card);
+                });
+            }
+
+            // Set active filter button
+            filterBtns.forEach(btn => {
+                const filter = btn.getAttribute('data-filter');
+                if (filter === initialCategory) {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                }
+
+                btn.addEventListener('click', () => {
+                    filterBtns.forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    renderProducts(filter);
+                });
+            });
+
+            renderProducts(initialCategory);
+        });
+    </script>
+</body>
+</html>
