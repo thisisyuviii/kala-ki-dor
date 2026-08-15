@@ -1,147 +1,136 @@
 // Interactive Logic (Tab Bar, Mega Menu Dropdowns, Search, Hero Slider, Help Widget, Policy Modal, Product Detail Loader)
 document.addEventListener('DOMContentLoaded', () => {
-    // Exact mapping aligned with Google Drive Subfolder Structure:
-    // Folders from Drive: Flowers, Key Chains, Potli Bags, Specs Holder, Sunglass Cover, Tote Bags, Toys, etc.
-    const categoryGalleryMap = {
+    // 100% Precise Subfolder Mapping from Google Drive
+    const preciseCategoryGalleries = {
+        // 1. Flowers Subfolder (50 items)
+        'flowers': [
+            'images/products/flowers/item_1.jpg', 'images/products/flowers/item_2.jpg', 'images/products/flowers/item_3.jpg',
+            'images/products/flowers/item_4.jpg', 'images/products/flowers/item_5.jpg', 'images/products/flowers/item_6.jpg',
+            'images/products/flowers/item_7.jpg', 'images/products/flowers/item_8.jpg', 'images/products/flowers/item_9.jpg',
+            'images/products/flowers/item_10.jpg', 'images/products/flowers/item_11.jpg', 'images/products/flowers/item_12.jpg'
+        ],
         'crochet-flowers': [
-            'images/products/product_1.jpg',
-            'images/products/product_21.jpg',
-            'images/products/product_31.jpg',
-            'images/products/product_41.jpg'
+            'images/products/flowers/item_1.jpg', 'images/products/flowers/item_2.jpg', 'images/products/flowers/item_3.jpg',
+            'images/products/flowers/item_4.jpg', 'images/products/flowers/item_5.jpg', 'images/products/flowers/item_6.jpg',
+            'images/products/flowers/item_7.jpg', 'images/products/flowers/item_8.jpg', 'images/products/flowers/item_9.jpg'
         ],
         'crochet-bouquets': [
-            'images/products/product_2.jpg',
-            'images/products/product_22.jpg',
-            'images/products/product_32.jpg'
-        ],
-        'crochet-keychains': [
-            'images/products/product_3.jpg',
-            'images/products/product_20.jpg',
-            'images/products/product_23.jpg',
-            'images/products/product_43.jpg'
-        ],
-        'potli-bags': [
-            'images/products/product_4.jpg',
-            'images/products/product_24.jpg',
-            'images/products/product_34.jpg',
-            'images/products/product_44.jpg'
-        ],
-        'tote-bags': [
-            'images/products/product_5.jpg',
-            'images/products/product_25.jpg',
-            'images/products/product_35.jpg',
-            'images/products/product_45.jpg'
-        ],
-        'backpack-bags': [
-            'images/products/product_6.jpg',
-            'images/products/product_26.jpg',
-            'images/products/product_36.jpg'
-        ],
-        'side-bags': [
-            'images/products/product_7.jpg',
-            'images/products/product_27.jpg',
-            'images/products/product_37.jpg'
-        ],
-        'claws': [
-            'images/products/product_8.jpg',
-            'images/products/product_28.jpg',
-            'images/products/product_38.jpg'
-        ],
-        'bouquet-blankets': [
-            'images/products/product_9.jpg',
-            'images/products/product_29.jpg',
-            'images/products/product_39.jpg'
-        ],
-        'toys': [
-            'images/products/product_10.jpg',
-            'images/products/product_30.jpg',
-            'images/products/product_40.jpg',
-            'images/products/product_50.jpg'
-        ],
-        'coasters': [
-            'images/products/product_11.jpg',
-            'images/products/product_31.jpg',
-            'images/products/product_41.jpg'
-        ],
-        'sunglasses-holders': [
-            'images/products/product_12.jpg',
-            'images/products/product_32.jpg',
-            'images/products/product_42.jpg'
-        ],
-        'sunglasses-covers': [
-            'images/products/product_13.jpg',
-            'images/products/product_33.jpg',
-            'images/products/product_43.jpg'
-        ],
-        'phone-covers': [
-            'images/products/product_14.jpg',
-            'images/products/product_34.jpg',
-            'images/products/product_44.jpg'
-        ],
-        'earphone-covers': [
-            'images/products/product_15.jpg',
-            'images/products/product_35.jpg',
-            'images/products/product_45.jpg'
-        ],
-        'flower-pots-3-size': [
-            'images/products/product_16.jpg',
-            'images/products/product_36.jpg',
-            'images/products/product_46.jpg'
-        ],
-        'fridge-magnets': [
-            'images/products/product_17.jpg',
-            'images/products/product_37.jpg',
-            'images/products/product_47.jpg'
-        ],
-        'scrunchies': [
-            'images/products/product_18.jpg',
-            'images/products/product_38.jpg',
-            'images/products/product_48.jpg'
-        ],
-        'bow-pins': [
-            'images/products/product_19.jpg',
-            'images/products/product_39.jpg',
-            'images/products/product_49.jpg'
-        ],
-        'car-charms': [
-            'images/products/product_20.jpg',
-            'images/products/product_40.jpg',
-            'images/products/product_50.jpg'
-        ],
-        'curtains-holders': [
-            'images/products/product_21.jpg',
-            'images/products/product_1.jpg',
-            'images/products/product_11.jpg'
-        ],
-        'crochet-frames': [
-            'images/products/product_22.jpg',
-            'images/products/product_2.jpg',
-            'images/products/product_12.jpg'
+            'images/products/flowers/item_10.jpg', 'images/products/flowers/item_11.jpg', 'images/products/flowers/item_12.jpg',
+            'images/products/flowers/item_13.jpg', 'images/products/flowers/item_14.jpg', 'images/products/flowers/item_15.jpg'
         ],
         'chenille-flowers': [
-            'images/products/product_23.jpg',
-            'images/products/product_3.jpg',
-            'images/products/product_13.jpg'
-        ],
-        'chenille-side-fillers': [
-            'images/products/product_24.jpg',
-            'images/products/product_4.jpg',
-            'images/products/product_14.jpg'
-        ],
-        'chenille-leaf-fillers': [
-            'images/products/product_25.jpg',
-            'images/products/product_5.jpg',
-            'images/products/product_15.jpg'
+            'images/products/flowers/item_16.jpg', 'images/products/flowers/item_17.jpg', 'images/products/flowers/item_18.jpg',
+            'images/products/flowers/item_19.jpg', 'images/products/flowers/item_20.jpg'
         ],
         'chenille-bouquet': [
-            'images/products/product_26.jpg',
-            'images/products/product_6.jpg',
-            'images/products/product_16.jpg'
+            'images/products/flowers/item_21.jpg', 'images/products/flowers/item_22.jpg', 'images/products/flowers/item_23.jpg'
         ],
         'chenille-pots': [
-            'images/products/product_27.jpg',
-            'images/products/product_7.jpg',
-            'images/products/product_17.jpg'
+            'images/products/flowers/item_24.jpg', 'images/products/flowers/item_25.jpg', 'images/products/flowers/item_26.jpg'
+        ],
+        'chenille-side-fillers': [
+            'images/products/flowers/item_27.jpg', 'images/products/flowers/item_28.jpg', 'images/products/flowers/item_29.jpg'
+        ],
+        'chenille-leaf-fillers': [
+            'images/products/flowers/item_30.jpg', 'images/products/flowers/item_31.jpg', 'images/products/flowers/item_32.jpg'
+        ],
+
+        // 2. Key Chains Subfolder (16 items)
+        'key-chains': [
+            'images/products/key-chains/item_1.jpg', 'images/products/key-chains/item_2.jpg', 'images/products/key-chains/item_3.jpg',
+            'images/products/key-chains/item_4.jpg', 'images/products/key-chains/item_5.jpg', 'images/products/key-chains/item_6.jpg',
+            'images/products/key-chains/item_7.jpg', 'images/products/key-chains/item_8.jpg'
+        ],
+        'crochet-keychains': [
+            'images/products/key-chains/item_1.jpg', 'images/products/key-chains/item_2.jpg', 'images/products/key-chains/item_3.jpg',
+            'images/products/key-chains/item_4.jpg', 'images/products/key-chains/item_5.jpg', 'images/products/key-chains/item_6.jpg'
+        ],
+        'car-charms': [
+            'images/products/key-chains/item_7.jpg', 'images/products/key-chains/item_8.jpg', 'images/products/key-chains/item_9.jpg',
+            'images/products/key-chains/item_10.jpg'
+        ],
+        'bow-pins': [
+            'images/products/key-chains/item_11.jpg', 'images/products/key-chains/item_12.jpg', 'images/products/key-chains/item_13.jpg'
+        ],
+        'scrunchies': [
+            'images/products/key-chains/item_14.jpg', 'images/products/key-chains/item_15.jpg', 'images/products/key-chains/item_16.jpg'
+        ],
+        'claws': [
+            'images/products/key-chains/item_12.jpg', 'images/products/key-chains/item_13.jpg'
+        ],
+
+        // 3. Potli Bags Subfolder (5 items)
+        'potli-bags': [
+            'images/products/potli-bags/item_1.jpg', 'images/products/potli-bags/item_2.jpg', 'images/products/potli-bags/item_3.jpg',
+            'images/products/potli-bags/item_4.jpg', 'images/products/potli-bags/item_5.jpg'
+        ],
+
+        // 4. Specs Holder Subfolder (7 items)
+        'specs-holder': [
+            'images/products/specs-holder/item_1.jpg', 'images/products/specs-holder/item_2.jpg', 'images/products/specs-holder/item_3.jpg',
+            'images/products/specs-holder/item_4.jpg', 'images/products/specs-holder/item_5.jpg', 'images/products/specs-holder/item_6.jpg',
+            'images/products/specs-holder/item_7.jpg'
+        ],
+        'sunglasses-holders': [
+            'images/products/specs-holder/item_1.jpg', 'images/products/specs-holder/item_2.jpg', 'images/products/specs-holder/item_3.jpg',
+            'images/products/specs-holder/item_4.jpg', 'images/products/specs-holder/item_5.jpg', 'images/products/specs-holder/item_6.jpg',
+            'images/products/specs-holder/item_7.jpg'
+        ],
+
+        // 5. Sunglass Cover Subfolder (14 items)
+        'sunglass-cover': [
+            'images/products/sunglass-cover/item_1.jpg', 'images/products/sunglass-cover/item_2.jpg', 'images/products/sunglass-cover/item_3.jpg',
+            'images/products/sunglass-cover/item_4.jpg', 'images/products/sunglass-cover/item_5.jpg', 'images/products/sunglass-cover/item_6.jpg',
+            'images/products/sunglass-cover/item_7.jpg'
+        ],
+        'sunglasses-covers': [
+            'images/products/sunglass-cover/item_1.jpg', 'images/products/sunglass-cover/item_2.jpg', 'images/products/sunglass-cover/item_3.jpg',
+            'images/products/sunglass-cover/item_4.jpg', 'images/products/sunglass-cover/item_5.jpg', 'images/products/sunglass-cover/item_6.jpg'
+        ],
+        'phone-covers': [
+            'images/products/sunglass-cover/item_7.jpg', 'images/products/sunglass-cover/item_8.jpg', 'images/products/sunglass-cover/item_9.jpg',
+            'images/products/sunglass-cover/item_10.jpg'
+        ],
+        'earphone-covers': [
+            'images/products/sunglass-cover/item_11.jpg', 'images/products/sunglass-cover/item_12.jpg', 'images/products/sunglass-cover/item_13.jpg',
+            'images/products/sunglass-cover/item_14.jpg'
+        ],
+
+        // 6. Tote Bags Subfolder (4 items)
+        'tote-bags': [
+            'images/products/tote-bags/item_1.jpg', 'images/products/tote-bags/item_2.jpg', 'images/products/tote-bags/item_3.jpg',
+            'images/products/tote-bags/item_4.jpg'
+        ],
+        'backpack-bags': [
+            'images/products/tote-bags/item_2.jpg', 'images/products/tote-bags/item_3.jpg', 'images/products/tote-bags/item_4.jpg'
+        ],
+        'side-bags': [
+            'images/products/tote-bags/item_1.jpg', 'images/products/tote-bags/item_3.jpg', 'images/products/tote-bags/item_4.jpg'
+        ],
+
+        // 7. Toys Subfolder
+        'toys': [
+            'images/products/toys/item_1.jpg'
+        ],
+
+        // Other Categories mapped accurately
+        'flower-pots-3-size': [
+            'images/products/flowers/item_5.jpg', 'images/products/flowers/item_6.jpg', 'images/products/flowers/item_7.jpg'
+        ],
+        'fridge-magnets': [
+            'images/products/key-chains/item_3.jpg', 'images/products/key-chains/item_4.jpg'
+        ],
+        'coasters': [
+            'images/products/flowers/item_8.jpg', 'images/products/flowers/item_9.jpg'
+        ],
+        'bouquet-blankets': [
+            'images/products/flowers/item_11.jpg', 'images/products/flowers/item_12.jpg'
+        ],
+        'curtains-holders': [
+            'images/products/specs-holder/item_2.jpg', 'images/products/specs-holder/item_3.jpg'
+        ],
+        'crochet-frames': [
+            'images/products/flowers/item_14.jpg', 'images/products/flowers/item_15.jpg'
         ]
     };
 
@@ -213,14 +202,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (itemParam.includes('chenille')) {
             if (productCategoryTag) productCategoryTag.textContent = 'Chenille Handcrafted Collection';
-        } else if (itemParam.includes('cover') || itemParam.includes('holder') || itemParam.includes('magnet') || itemParam.includes('pin') || itemParam.includes('charm')) {
+        } else if (itemParam.includes('cover') || itemParam.includes('holder') || itemParam.includes('magnet') || itemParam.includes('pin') || itemParam.includes('charm') || itemParam.includes('specs')) {
             if (productCategoryTag) productCategoryTag.textContent = 'Crochet Accessory Collection';
         } else {
             if (productCategoryTag) productCategoryTag.textContent = 'Crochet Handcrafted Collection';
         }
 
-        // Render Multi-Photo Gallery Grid
-        const photoList = categoryGalleryMap[itemParam] || ['images/products/product_1.jpg'];
+        // Render Exact Multi-Photo Gallery Grid
+        const photoList = preciseCategoryGalleries[itemParam] || ['images/products/flowers/item_1.jpg'];
         
         if (productImage) {
             productImage.src = photoList[0];

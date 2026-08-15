@@ -1,0 +1,501 @@
+{
+  "flowers": [
+    {
+      "path": "images/products/flowers/item_1.jpg",
+      "id": "10YWAbQr8bliM92grd3xEPcuT0gY9l5yK",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.54 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_2.jpg",
+      "id": "178mZ_TKQJIGHSIY4A9l34Bjpdg47oOeW",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.54 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_3.jpg",
+      "id": "1KmSnTz5AqDGoKFTE6tF6Ksamln1KIUHP",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.55 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_4.jpg",
+      "id": "1sW7u0PXesjaK3_mDn61x__ZjuPq9AWtU",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.55 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_5.jpg",
+      "id": "1blUVeKwHP3D5x7sB9Ik5ByegoXyrX-SR",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.55 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_6.jpg",
+      "id": "1jdVVfl1Exj-tV4z3kgDhs7aXOnVXWwQK",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.56 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_7.jpg",
+      "id": "1cjRFZLFELSpKdIkutXrA6Eb8-sIgi7JF",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.56 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_8.jpg",
+      "id": "1XuHfFZxbnBn9dKTH6E4Q6FMFLo8mMb0b",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.56 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_9.jpg",
+      "id": "1iwreSZ7e2fW07HheN_LvtyhdAiVyY0Cv",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.57 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_10.jpg",
+      "id": "1MnCEMEWDLbAlnt9HbMty6HE2iGfbXx7l",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.57 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_11.jpg",
+      "id": "1Vr43Swvc8-q_Rvycq3fxHZnzZ58flKJy",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.58 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_12.jpg",
+      "id": "102WTmhNSh_nAbNifx-HISpWWj9jvecLo",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.58 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_13.jpg",
+      "id": "1a8bGnkZuhpmmQdyWuWpDnp2vP-LUA_ei",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.58 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_14.jpg",
+      "id": "1pembGLIAmtW9sX8n_olzfgYrZxhgkVTt",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.59 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_15.jpg",
+      "id": "1CSuy8ZckkZHoM7LKFsgaGR8lIlxGZJuO",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.59 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_16.jpg",
+      "id": "1HMpEw36d28xhAdPiTcxGWy2GSDKQg5yi",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.59 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_17.jpg",
+      "id": "1d--iHQhQ8jgNLPLeMobTm9bKd4NLmmUk",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.00 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_18.jpg",
+      "id": "17kOXM4BA5e1v-rCMhFQjBLIAdebTw1Nu",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.00 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_19.jpg",
+      "id": "1yQx0sl4EpNv8G4RqMi2CO35G3Lw5OUe2",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.00 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_20.jpg",
+      "id": "1X6Ngx94MP-xqPqhUrZJje9VRuGzrTfym",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.01 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_21.jpg",
+      "id": "1pJLMKHQb2aEhgPEKY1LvFhbxj1Vkdubz",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.01 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_22.jpg",
+      "id": "1TJJZ5Z15h1-Sid-NcfRYu076Snl2f9lF",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.02 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_23.jpg",
+      "id": "1M1PkSKrKeka8U7qJUTrWntiphNKo_rYi",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.02 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_24.jpg",
+      "id": "18w00LhmGME3PHagW_wtvQGSMQzTw7zde",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.02 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_25.jpg",
+      "id": "1pwWTzY1oYG6L1To6RKL5bYWV16UTPZxN",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.03 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_26.jpg",
+      "id": "1cJ7g-2rZagUc2tIxqL7HQPHZJlcvPTkV",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.03 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_27.jpg",
+      "id": "1drH3Vnbs5PlqZ-rgj9UrmwfpLO3eme-x",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.03 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_28.jpg",
+      "id": "1wCzpHz7x67r08QEm35R0PlS5b19nXOJ_",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.04 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_29.jpg",
+      "id": "16zq5WGzMm6ny6eGRiCTj_3IOzg_EPmeC",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.04 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_30.jpg",
+      "id": "1fCpa4i86FHI_FURYAP3Bi1gDzaTwwuvM",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.04 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_31.jpg",
+      "id": "1OLep0cqCZd5_svzkGkTjNSL-GuvgXEff",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.05 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_32.jpg",
+      "id": "1zQsDjqdgqMAojSO5UIYTlQIs2Va5EtZZ",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.05 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_33.jpg",
+      "id": "1t5fiMeTDJynhTKhtPhbGY2n442V5A0eI",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.06 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_34.jpg",
+      "id": "1qtsc62DBPku0nlZV71Lwe6TH64L1XazF",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.06 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_35.jpg",
+      "id": "1h4Jtn_dxvJHOAG_uc2Y7hAq6-NUD3Va7",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.06 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_36.jpg",
+      "id": "1d5HK7G4pFPiFNnRFnwMeXqy2ln0_2ldk",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.07 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_37.jpg",
+      "id": "1UZALJivkgf3xeNke2ArKmSAeu8iKEti5",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.07 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_38.jpg",
+      "id": "1DyQvWWcMcHrluee8xQG2vD6QSxifb-Da",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.07 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_39.jpg",
+      "id": "1RRXGmK4pIDiPt_qUCwqQcDy1XYDUK6HY",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.08 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_40.jpg",
+      "id": "1dAVvzvvahM4eCgVwz45i2WJoKreeqs2p",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.08 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_41.jpg",
+      "id": "1Dc2usmaACCjMsu6iCOD5Lp68Fs9TO8S1",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.08 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_42.jpg",
+      "id": "1gWUxU6Nw2WK0cWcTXtludgrJ7eogzSQx",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.09 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_43.jpg",
+      "id": "1JvKgk8l3H4NyrN85bnoMurVciyB3NlId",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.09 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_44.jpg",
+      "id": "1IbD4LmOzZ7zBrDw-uC2dbj-q9P9kPBmp",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.09 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_45.jpg",
+      "id": "1XDXKRaEDn-w4_DI6MZPxpoCkc0i59Icv",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.10 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_46.jpg",
+      "id": "1gu4sV0lKxEzVjbBFiMer-PqlwnrU7yl0",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.10 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_47.jpg",
+      "id": "1_75QoOJTXcY_mFFoIBEWDb1-CK2ZwfR6",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.10 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_48.jpg",
+      "id": "1yfPAaVUs2qgtEiFtHzKUI0RQNlRn6hkb",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.11 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_49.jpg",
+      "id": "1LMnh942IatVLDoPhx2a75xJmp07Tq2jv",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.11 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/flowers/item_50.jpg",
+      "id": "1auRdErcnthVg6JcoBfUG3ZtU1xnZhKmP",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.11 PM.jpeg Image Shared"
+    }
+  ],
+  "key-chains": [
+    {
+      "path": "images/products/key-chains/item_1.jpg",
+      "id": "14jzZ5EHWZGhoVbTs9Ek7FupT4sFaC6GY",
+      "title": "WhatsApp Image 2026-08-07 at 11.13.23 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_2.jpg",
+      "id": "1YC88M6WiQNvXHLjvIV_etPnQxgjJutrh",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.35 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_3.jpg",
+      "id": "11rjp5hqbV_EYiECDEa8PfT-mWVQXovG9",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.35 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_4.jpg",
+      "id": "182WMNTd1ooXk7fYJFw6MqC7OfM7Gloj6",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.36 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_5.jpg",
+      "id": "1YPIVAYn5WUqhnicxutdPtUqXvFNT3CCD",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.36 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_6.jpg",
+      "id": "112-wPb-Wki6X6_2jfAiGXow23nVKWQVh",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.36 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_7.jpg",
+      "id": "1LQF0OvhhLprhT05QWLkS5bMHadTCb9_T",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.37 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_8.jpg",
+      "id": "15CMUv-iADNWiUgI-kIwY9SLF8wU7Pvcf",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.37 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_9.jpg",
+      "id": "1z8h91Az6MeNFnscbwi6SOyKB72TzstPP",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.38 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_10.jpg",
+      "id": "1r1zD_MY8lDkmfmjwzFh-7xs1YO4vqbgr",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.49 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_11.jpg",
+      "id": "1CaMKhHX5bwv66hQLo8MamAs7Jmp6Pmhy",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.49 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_12.jpg",
+      "id": "1xtG5uog8-ZSIqVaEv1OLzT16eo638B5-",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.50 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_13.jpg",
+      "id": "1NCvtbVjmH0VMclvqk18xAbPMGldIWEnD",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.50 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_14.jpg",
+      "id": "1Prgq10VNo1eQK5MHK--9orukjfA6qhyZ",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.50 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_15.jpg",
+      "id": "17QhVx9eAPHhfRwJthNV37Jm0Ca7ZWjku",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.51 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/key-chains/item_16.jpg",
+      "id": "1Xkgbg8sxHbm6a9N46x7c1ajyG3oFxP1C",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.51 PM.jpeg Image Shared"
+    }
+  ],
+  "potli-bags": [
+    {
+      "path": "images/products/potli-bags/item_1.jpg",
+      "id": "1mGA6rwPFHJd7mpuV7UoHhLolmFYxpKtz",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.45 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/potli-bags/item_2.jpg",
+      "id": "1r5ZGh2zfMqlbuz18_mSzQXcZ3DDFGv5v",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.45 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/potli-bags/item_3.jpg",
+      "id": "1q0Mm4XIBgyEb-YCqhZbVwxID3ovqX7VM",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.45 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/potli-bags/item_4.jpg",
+      "id": "1vRIjqZe0XrHrqAYFdWwoAkq94dlanV2t",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.46 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/potli-bags/item_5.jpg",
+      "id": "12U6anmgFw23jhroPg5skUUtdrBomfGje",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.46 PM.jpeg Image Shared"
+    }
+  ],
+  "specs-holder": [
+    {
+      "path": "images/products/specs-holder/item_1.jpg",
+      "id": "1S-652YwV9BnB6TiQHyGfvcGxlVdksbnI",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.40 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/specs-holder/item_2.jpg",
+      "id": "1sJC0c3Czu-nuW4mR6cu5nGN3AvGidclF",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.40 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/specs-holder/item_3.jpg",
+      "id": "1WESshhNkwhH4hk9YQTvAg4aKCg2wyGfn",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.41 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/specs-holder/item_4.jpg",
+      "id": "1Lrun0qhhNcOBHfFnYdNzSVfHsvvDUXNx",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.41 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/specs-holder/item_5.jpg",
+      "id": "1dXEhZxHj6-H-TIOimgvaenYYQ7KJ35_0",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.41 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/specs-holder/item_6.jpg",
+      "id": "1QC_matGnq6kzf9yTL0DstrJ1QIiNZNTo",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.44 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/specs-holder/item_7.jpg",
+      "id": "1PaeihHhq3R7278tKgdEXbTk8f0Ky3aKn",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.44 PM.jpeg Image Shared"
+    }
+  ],
+  "sunglass-cover": [
+    {
+      "path": "images/products/sunglass-cover/item_1.jpg",
+      "id": "1GxYZQkP_BHzoWCHwx6hzNd17UngjDvGF",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.53 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_2.jpg",
+      "id": "1alIwElcETSftL48eQtey5AueWaxsZV_k",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.53 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_3.jpg",
+      "id": "1eCyv8I8jwm3AhS45rmU0Hsvt9fU1RW5c",
+      "title": "WhatsApp Image 2026-08-07 at 11.11.57 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_4.jpg",
+      "id": "1j-3VLUqYxyciGCcFK-6XxFGNfHi07B3y",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.05 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_5.jpg",
+      "id": "1eaUs68R-UUGRPNMM63DPEm2JRjSuQkBl",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.39 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_6.jpg",
+      "id": "1x9ANTqqZEVO_GF79hs9bGGnNvffONr4n",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.39 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_7.jpg",
+      "id": "1IdeZUU9U3lAoL73LdoN_ocDJvBQNfGo1",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.39 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_8.jpg",
+      "id": "1zAHjTmUeTWZV4_kL9vardHx2sGyZa6_Q",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.40 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_9.jpg",
+      "id": "1Vm9Uqsm5Ym8KnxQ5NVSRhbrQQd8PP--A",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.42 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_10.jpg",
+      "id": "1P8PWe2vNbsMQf-h4A-EwrOEjpWzQFKb6",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.42 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_11.jpg",
+      "id": "15MUVGtOo5uImCJqcWdsnkSr2SuucXwZG",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.42 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_12.jpg",
+      "id": "1phNtRjDzmVtD2WASZPQ6QVrSuBQYC3bc",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.43 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_13.jpg",
+      "id": "1QaeC-lejUP9hUQHHD_jEbfcOcGbTNXWW",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.43 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/sunglass-cover/item_14.jpg",
+      "id": "1feb2MKQdh1Z5gsQxfYxV6WCGP5p76Qdv",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.43 PM.jpeg Image Shared"
+    }
+  ],
+  "tote-bags": [
+    {
+      "path": "images/products/tote-bags/item_1.jpg",
+      "id": "1-n2LHRitZx6lqy-s-w5jqagem4g6NjSu",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.47 PM (1).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/tote-bags/item_2.jpg",
+      "id": "1etVtxV8fju7iGsU7IVUYt2sjYTDm_Njx",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.47 PM (2).jpeg Image Shared"
+    },
+    {
+      "path": "images/products/tote-bags/item_3.jpg",
+      "id": "1pInOadA64op33AerAcVMzMrBKZ-u1ojI",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.47 PM.jpeg Image Shared"
+    },
+    {
+      "path": "images/products/tote-bags/item_4.jpg",
+      "id": "1fJCHXazdTPmjjRNq2jrUF_FBacLX_YoU",
+      "title": "WhatsApp Image 2026-08-07 at 11.19.48 PM.jpeg Image Shared"
+    }
+  ],
+  "toys": [
+    {
+      "path": "images/products/toys/item_1.jpg",
+      "id": "1hVX9Yk0riQJiIWSlCUnAEOKxhtVdexE9",
+      "title": "WhatsApp Image 2026-08-07 at 11.12.01 PM (2).jpeg Image Shared"
+    }
+  ]
+}
