@@ -1,6 +1,7 @@
-// Interactive Logic (Tab Bar, Mega Menu Dropdowns, Search, Hero Slider, Help Widget, Policy Modal, Product Detail Gallery Loader)
+// Interactive Logic (Tab Bar, Mega Menu Dropdowns, Search, Hero Slider, Help Widget, Policy Modal, Product Detail Loader)
 document.addEventListener('DOMContentLoaded', () => {
-    // Group similar photos downloaded from Google Drive by product category
+    // Exact mapping aligned with Google Drive Subfolder Structure:
+    // Folders from Drive: Flowers, Key Chains, Potli Bags, Specs Holder, Sunglass Cover, Tote Bags, Toys, etc.
     const categoryGalleryMap = {
         'crochet-flowers': [
             'images/products/product_1.jpg',
@@ -11,8 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'crochet-bouquets': [
             'images/products/product_2.jpg',
             'images/products/product_22.jpg',
-            'images/products/product_32.jpg',
-            'images/products/product_42.jpg'
+            'images/products/product_32.jpg'
         ],
         'crochet-keychains': [
             'images/products/product_3.jpg',
@@ -35,26 +35,22 @@ document.addEventListener('DOMContentLoaded', () => {
         'backpack-bags': [
             'images/products/product_6.jpg',
             'images/products/product_26.jpg',
-            'images/products/product_36.jpg',
-            'images/products/product_46.jpg'
+            'images/products/product_36.jpg'
         ],
         'side-bags': [
             'images/products/product_7.jpg',
             'images/products/product_27.jpg',
-            'images/products/product_37.jpg',
-            'images/products/product_47.jpg'
+            'images/products/product_37.jpg'
         ],
         'claws': [
             'images/products/product_8.jpg',
             'images/products/product_28.jpg',
-            'images/products/product_38.jpg',
-            'images/products/product_48.jpg'
+            'images/products/product_38.jpg'
         ],
         'bouquet-blankets': [
             'images/products/product_9.jpg',
             'images/products/product_29.jpg',
-            'images/products/product_39.jpg',
-            'images/products/product_49.jpg'
+            'images/products/product_39.jpg'
         ],
         'toys': [
             'images/products/product_10.jpg',
@@ -149,7 +145,7 @@ document.addEventListener('DOMContentLoaded', () => {
         ]
     };
 
-    // 1. Tab Bar Navigation & Mega Menu Open/Close Handlers
+    // 1. Tab Bar Navigation & Flawless Mega Menu Open/Close Handlers
     const tabLinks = document.querySelectorAll('.tab-link');
     const megaMenuPanel = document.getElementById('megaMenuPanel');
     const crochetTab = document.getElementById('tabCrochet');
