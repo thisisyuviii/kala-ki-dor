@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handcrafted Product Details | Kala ki Dor</title>
+    <meta name="description" content="View handcrafted product details created with love by empowered women artisans at Kala ki Dor.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Dedicated Product Page Styles */
+        .product-page-wrapper {
+            max-width: 1200px;
+            margin: 40px auto 80px auto;
+            padding: 0 32px;
+        }
+
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-bottom: 32px;
+        }
+
+        .breadcrumb a {
+            color: #0d6e75;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .product-detail-card {
+            background-color: #ffffff;
+            border-radius: var(--radius-card);
+            padding: 48px;
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e2e8f0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            align-items: start;
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .product-gallery-frame {
+            position: relative;
+            width: 100%;
+            height: 420px;
+            border-radius: var(--radius-image);
+            overflow: hidden;
+            background-color: #f1f5f9;
+            box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .product-gallery-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition-smooth);
+        }
+
+        .product-gallery-thumbnails {
+            display: flex;
+            gap: 12px;
+            overflow-x: auto;
+            padding-bottom: 6px;
+        }
+
+        .thumbnail-item {
+            width: 84px;
+            height: 84px;
+            border-radius: 12px;
+            overflow: hidden;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: var(--transition-smooth);
+            flex-shrink: 0;
+            background-color: #f1f5f9;
+        }
+
+        .thumbnail-item.active,
+        .thumbnail-item:hover {
+            border-color: var(--color-chevron);
+            transform: translateY(-2px);
+        }
+
+        .thumbnail-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .product-info-column h1 {
+            font-size: 2.4rem;
+            font-weight: 800;
+            color: var(--hero-bg-dark);
+            margin-bottom: 12px;
+        }
+
+        .product-category-tag {
+            display: inline-block;
+            background-color: rgba(61, 214, 173, 0.15);
+            color: #0d6e75;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 6px 14px;
+            border-radius: var(--radius-pill);
+            margin-bottom: 20px;
+        }
+
+        .product-price-box {
+            display: flex;
+            align-items: baseline;
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .product-price {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--hero-bg-dark);
+        }
+
+        .artisan-impact-badge {
+            background-color: #f8fafc;
+            border-left: 4px solid var(--color-chevron);
+            padding: 16px;
+            border-radius: 0 12px 12px 0;
+            font-size: 0.94rem;
+            color: #334155;
+            margin-bottom: 32px;
+            line-height: 1.5;
+        }
+
+        .product-actions-box {
+            display: flex;
+            gap: 16px;
+        }
+
+        .order-wa-btn {
+            background-color: #25d366;
+            color: #ffffff;
+            font-weight: 700;
+            text-decoration: none;
+            padding: 14px 28px;
+            border-radius: var(--radius-pill);
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 6px 18px rgba(37, 211, 102, 0.3);
+            transition: var(--transition-smooth);
+        }
+
+        .order-wa-btn:hover {
+            background-color: #1fbe5a;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .product-detail-card {
+                grid-template-columns: 1fr;
+                padding: 24px;
+            }
+
+            .product-gallery-frame {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOP TAB / NAVIGATION BAR -->
+    <header class="top-nav-header">
+        <div class="nav-container">
+            <a href="index.html" class="brand-logo" id="brandLogo">
+                <span class="logo-accent">KALA</span> KI DOR
+            </a>
+            <nav class="nav-tabs">
+                <ul class="tab-list">
+                    <li class="tab-item"><a href="index.html#new-launch" class="tab-link">Home</a></li>
+                    <li class="tab-item"><a href="index.html#categories-section" class="tab-link active">Catalog</a></li>
+                    <li class="tab-item"><a href="index.html#about-us-section" class="tab-link">About Us</a></li>
+                    <li class="tab-item"><a href="index.html#contact" class="tab-link">Get In Touch</a></li>
+                    <li class="tab-item"><a href="index.html#return-policy" class="tab-link">Return Policy</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- DEDICATED PRODUCT SHOWCASE PAGE -->
+    <main class="product-page-wrapper">
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> &gt; <a href="index.html#categories-section">Catalog</a> &gt; <span id="productNameBreadcrumb">Handcrafted Creation</span>
+        </div>
+
+        <div class="product-detail-card">
+            <!-- Product Gallery & Multi-Photo Thumbnails -->
+            <div class="gallery-container">
+                <div class="product-gallery-frame">
+                    <img src="images/products/product_1.jpg" alt="Handcrafted Product Image" id="productImage">
+                </div>
+                <div class="product-gallery-thumbnails" id="galleryThumbnails">
+                    <!-- Dynamic Thumbnails inserted via JavaScript -->
+                </div>
+            </div>
+
+            <!-- Product Details -->
+            <div class="product-info-column">
+                <span class="product-category-tag" id="productCategoryTag">Handcrafted Collection</span>
+                <h1 id="productTitle">Handcrafted Crochet Creation</h1>
+                
+                <div class="product-price-box">
+                    <span class="product-price" id="productPrice">Custom Handmade</span>
+                </div>
+
+                <div class="artisan-impact-badge">
+                    ✨ <strong>Social Cause Impact</strong>: 100% of proceeds from this product directly support local women artisans and children education programs under <strong>Kala ki Dor</strong>.
+                </div>
+
+                <div class="product-description-box" style="margin-bottom: 32px; color: #475569; line-height: 1.7;">
+                    <p id="productDescription">
+                        Each item is meticulously handcrafted by traditional craftswomen. Due to the handmade nature of our products, every single piece carries its own unique charm and thread of love.
+                    </p>
+                </div>
+
+                <div class="product-actions-box">
+                    <a href="https://wa.me/?text=Hi%20Kala%20ki%20Dor,%20I%20want%20to%20order%20this%20handcrafted%20product!" target="_blank" class="order-wa-btn">
+                        💬 Order via WhatsApp
+                    </a>
+                    <a href="index.html#contact" class="mint-pill-btn">
+                        Send Order Inquiry
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="brand-logo"><span class="logo-accent">KALA</span> KI DOR</a>
+                <p>Craft with Love, Sold for a Cause. A living tribute to Navya.</p>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Kala ki Dor. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

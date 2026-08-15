@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kala ki Dor | Craft with Love, Sold for a Cause</title>
+    <meta name="description" content="Kala ki Dor is a living tribute founded by Ridhima Gupta in memory of her sister Navya. Empowering artisans through skill training, inclusive dignity, and mental health awareness.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- TOP TAB / NAVIGATION BAR WITH MEGA MENU DROPDOWN -->
+    <header class="top-nav-header">
+        <div class="nav-container">
+            <!-- Brand Logo: Kala ki Dor -->
+            <a href="#" class="brand-logo" id="brandLogo">
+                <span class="logo-accent">KALA</span> KI DOR
+            </a>
+
+            <!-- Navigation Tabs -->
+            <nav class="nav-tabs" aria-label="Main Navigation">
+                <ul class="tab-list">
+                    <li class="tab-item"><a href="#new-launch" class="tab-link active" id="tabNewLaunch">New Launch</a></li>
+                    
+                    <!-- Mega Menu Dropdown Trigger for Crochet -->
+                    <li class="tab-item has-dropdown">
+                        <a href="#categories-section" class="tab-link" id="tabCrochet">
+                            Crochet
+                            <svg class="tab-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                        </a>
+                    </li>
+
+                    <li class="tab-item"><a href="#about-us-section" class="tab-link" id="tabAboutUs">About Us</a></li>
+                    <li class="tab-item"><a href="#contact" class="tab-link" id="tabGetInTouch">Get In Touch</a></li>
+                    <li class="tab-item"><a href="#return-policy" class="tab-link" id="tabReturnPolicy">Return Policy</a></li>
+                </ul>
+            </nav>
+
+            <!-- Right Actions: Search & Get In Touch CTA -->
+            <div class="nav-actions">
+                <button class="search-btn" id="searchBtn" aria-label="Search Products">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+
+                <a href="#contact" class="get-in-touch-btn" id="getInTouchBtn">
+                    <span class="btn-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
+                    </span>
+                    <span class="btn-text">Get in touch</span>
+                </a>
+
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- MEGA MENU PANEL -->
+        <div class="mega-menu-panel" id="megaMenuPanel">
+            <div class="mega-menu-container">
+                <!-- Column 1: Crochet Items -->
+                <div class="mega-column">
+                    <h3 class="mega-column-title active-underline">
+                        Crochet Items
+                    </h3>
+                    <ul class="mega-sub-list">
+                        <li><a href="product-detail.html?item=crochet-flowers"><span class="chevron">&gt;</span> Flowers</a></li>
+                        <li><a href="product-detail.html?item=crochet-bouquets"><span class="chevron">&gt;</span> Bouquets</a></li>
+                        <li><a href="product-detail.html?item=crochet-keychains"><span class="chevron">&gt;</span> Keychains</a></li>
+                        <li><a href="product-detail.html?item=potli-bags"><span class="chevron">&gt;</span> Potli bags</a></li>
+                        <li><a href="product-detail.html?item=tote-bags"><span class="chevron">&gt;</span> Tote bags</a></li>
+                        <li><a href="product-detail.html?item=backpack-bags"><span class="chevron">&gt;</span> Backpack bags</a></li>
+                        <li><a href="product-detail.html?item=side-bags"><span class="chevron">&gt;</span> Side bags</a></li>
+                        <li><a href="product-detail.html?item=claws"><span class="chevron">&gt;</span> Claws</a></li>
+                        <li><a href="product-detail.html?item=bouquet-blankets"><span class="chevron">&gt;</span> Bouquet blankets</a></li>
+                        <li><a href="product-detail.html?item=toys"><span class="chevron">&gt;</span> Toys</a></li>
+                        <li><a href="product-detail.html?item=coasters"><span class="chevron">&gt;</span> Coasters</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 2: Crochet Accessories -->
+                <div class="mega-column">
+                    <h3 class="mega-column-title">
+                        Crochet Accessories
+                    </h3>
+                    <ul class="mega-sub-list">
+                        <li><a href="product-detail.html?item=sunglasses-holders"><span class="chevron">&gt;</span> Sunglasses holders</a></li>
+                        <li><a href="product-detail.html?item=sunglasses-covers"><span class="chevron">&gt;</span> Sunglasses covers</a></li>
+                        <li><a href="product-detail.html?item=phone-covers"><span class="chevron">&gt;</span> Phone covers</a></li>
+                        <li><a href="product-detail.html?item=earphone-covers"><span class="chevron">&gt;</span> Ear phone covers</a></li>
+                        <li><a href="product-detail.html?item=flower-pots-3-size"><span class="chevron">&gt;</span> Flower Pots (3 sizes)</a></li>
+                        <li><a href="product-detail.html?item=fridge-magnets"><span class="chevron">&gt;</span> Fridge magnets</a></li>
+                        <li><a href="product-detail.html?item=scrunchies"><span class="chevron">&gt;</span> Scrunchies</a></li>
+                        <li><a href="product-detail.html?item=bow-pins"><span class="chevron">&gt;</span> Bow pins</a></li>
+                        <li><a href="product-detail.html?item=car-charms"><span class="chevron">&gt;</span> Car charms</a></li>
+                        <li><a href="product-detail.html?item=curtains-holders"><span class="chevron">&gt;</span> Curtains holders</a></li>
+                        <li><a href="product-detail.html?item=crochet-frames"><span class="chevron">&gt;</span> Crochet frames</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Other Products / Chenille -->
+                <div class="mega-column">
+                    <h3 class="mega-column-title active-underline">
+                        Other Products / Chenille
+                    </h3>
+                    <ul class="mega-sub-list">
+                        <li><a href="product-detail.html?item=chenille-flowers"><span class="chevron">&gt;</span> Flowers</a></li>
+                        <li><a href="product-detail.html?item=chenille-side-fillers"><span class="chevron">&gt;</span> Side Fillers</a></li>
+                        <li><a href="product-detail.html?item=chenille-leaf-fillers"><span class="chevron">&gt;</span> Leaf Fillers</a></li>
+                        <li><a href="product-detail.html?item=chenille-bouquet"><span class="chevron">&gt;</span> Bouquet</a></li>
+                        <li><a href="product-detail.html?item=chenille-pots"><span class="chevron">&gt;</span> Pots</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SEARCH OVERLAY MODAL -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-modal">
+            <input type="text" id="searchInput" placeholder="Search handmade crochet, bags, keychains, scrunchies..." autofocus>
+            <button class="close-search" id="closeSearchBtn">&times;</button>
+        </div>
+    </div>
+
+    <!-- MAIN HERO SECTION -->
+    <main class="hero-wrapper">
+        <section class="hero-card" id="heroSection">
+            <div class="hero-card-overlay"></div>
+            <div class="grid-overlay-bg"></div>
+
+            <div class="hero-content-grid">
+                <div class="hero-text-container">
+                    <div class="text-glass-badge">
+                        ✨ Kala ki Dor • Social Initiative
+                    </div>
+                    <h1 class="main-headline">
+                        CRAFT WITH LOVE,<br>SOLD FOR A CAUSE
+                    </h1>
+                    <p class="sub-headline">
+                        One purchase , One Women, Empowerment , One Stronger Tommorow
+                    </p>
+                    <div class="hero-cta-wrapper">
+                        <a href="#about-us-section" class="mint-pill-btn" id="findOutMoreBtn">
+                            Find out more
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image-container">
+                    <div class="limelight-badge-card">
+                        <h3>A Thread of Love</h3>
+                        <p>A living tribute by Ridhima Gupta in memory of her sister Navya.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-footer-bar">
+                <div class="slider-indicators" id="sliderIndicators">
+                    <button class="dot-indicator" aria-label="Slide 1"></button>
+                    <button class="dot-indicator" aria-label="Slide 2"></button>
+                    <button class="dot-indicator active-pill" aria-label="Active Slide"></button>
+                </div>
+
+                <div class="need-help-floating">
+                    <button class="need-help-pill" id="needHelpBtn">
+                        <span class="avatar-circle">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Support Specialist">
+                        </span>
+                        <span class="need-help-text">Need Help?</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT US SECTION -->
+        <section class="about-us-section" id="about-us-section">
+            <div class="about-container">
+                <div class="about-header-badge">
+                    <span>Our Story & Mission</span>
+                </div>
+                
+                <h2 class="about-main-title">About Us</h2>
+                <p class="about-sub-tagline">
+                    <strong>Kalakidor</strong> is more than just an art store; it's a living tribute. Founded by <strong>Ridhima Gupta</strong>, in memory of her beloved sister <strong>Navya</strong>.
+                </p>
+
+                <div class="tribute-story-card">
+                    <div class="quote-mark">“</div>
+                    <p class="story-paragraph highlight-quote">
+                        From the depths of our hearts, thank you for believing in <strong>Kala ki Dor</strong>. Kala ki Dor is more than a brand—it is a thread of love that began with my sister, <strong>Navya</strong>. A soul so pure, she now lives on in every knot, every colour, and every creation we share with the world. Though she left us too soon, her spirit still holds my hand through every stitch.
+                    </p>
+                    <p class="story-paragraph emotional-conclusion">
+                        When you support Kala ki Dor, you are not just buying handmade art. You are holding a memory. A heartbeat. A whisper of love that never fades.
+                    </p>
+                    <div class="founder-signature">
+                        <div class="signature-line"></div>
+                        <span class="founder-name">Ridhima Gupta</span>
+                        <span class="founder-role">Founder, Kala ki Dor</span>
+                    </div>
+                </div>
+
+                <div class="pillars-container">
+                    <h3 class="pillars-section-title">Three Pillars of Change</h3>
+                    <div class="pillars-grid">
+                        <div class="pillar-card">
+                            <div class="pillar-icon-box">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+                            </div>
+                            <h4 class="pillar-title">Training</h4>
+                            <p class="pillar-desc">
+                                We provide training to artisans to empower and encourage them to grow.
+                            </p>
+                        </div>
+
+                        <div class="pillar-card highlight-pillar">
+                            <div class="pillar-icon-box">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+                            </div>
+                            <h4 class="pillar-title">Empowerment</h4>
+                            <p class="pillar-desc">
+                                In the past, provided skill training and dignity to women in Red Light Areas and the LGBTQ+ community.
+                            </p>
+                        </div>
+
+                        <div class="pillar-card">
+                            <div class="pillar-icon-box">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" y1="9" x2="9.01" y2="9"></line><line x1="15" y1="9" x2="15.01" y2="9"></line></svg>
+                            </div>
+                            <h4 class="pillar-title">Mental Health</h4>
+                            <p class="pillar-desc">
+                                Breaking taboos around depression and anxiety through awareness workshops and counseling.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="movement-cta-card">
+                    <div class="movement-content">
+                        <h3>Be a Part of the Movement</h3>
+                        <p>Whether you buy a product, volunteer your time, or simply share our story, you are helping us build a kinder world.</p>
+                        <div class="movement-actions">
+                            <a href="#categories-section" class="mint-pill-btn">Explore Catalog</a>
+                            <a href="#contact" class="outline-pill-btn">Get In Touch / Volunteer</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PRODUCT CATEGORIES DISPLAY SECTION -->
+        <section class="categories-section" id="categories-section">
+            <div class="section-header">
+                <h2>Our Handcrafted Catalog</h2>
+                <p>Explore our wide collection of handcrafted crochet items and chenille creations made with love.</p>
+            </div>
+
+            <div class="category-columns-grid">
+                <div class="category-card">
+                    <div class="category-card-header">
+                        <h3>Crochet Items</h3>
+                        <div class="header-underline"></div>
+                    </div>
+                    <ul class="sub-category-list">
+                        <li><a href="product-detail.html?item=crochet-flowers"><span class="chev">&gt;</span> Flowers</a></li>
+                        <li><a href="product-detail.html?item=crochet-bouquets"><span class="chev">&gt;</span> Bouquets</a></li>
+                        <li><a href="product-detail.html?item=crochet-keychains"><span class="chev">&gt;</span> Keychains</a></li>
+                        <li><a href="product-detail.html?item=potli-bags"><span class="chev">&gt;</span> Potli bags</a></li>
+                        <li><a href="product-detail.html?item=tote-bags"><span class="chev">&gt;</span> Tote bags</a></li>
+                        <li><a href="product-detail.html?item=backpack-bags"><span class="chev">&gt;</span> Backpack bags</a></li>
+                        <li><a href="product-detail.html?item=side-bags"><span class="chev">&gt;</span> Side bags</a></li>
+                        <li><a href="product-detail.html?item=claws"><span class="chev">&gt;</span> Claws</a></li>
+                        <li><a href="product-detail.html?item=bouquet-blankets"><span class="chev">&gt;</span> Bouquet blankets</a></li>
+                        <li><a href="product-detail.html?item=toys"><span class="chev">&gt;</span> Toys</a></li>
+                        <li><a href="product-detail.html?item=coasters"><span class="chev">&gt;</span> Coasters</a></li>
+                    </ul>
+                </div>
+
+                <div class="category-card">
+                    <div class="category-card-header">
+                        <h3>Crochet Accessories</h3>
+                        <div class="header-underline"></div>
+                    </div>
+                    <ul class="sub-category-list">
+                        <li><a href="product-detail.html?item=sunglasses-holders"><span class="chev">&gt;</span> Sunglasses holders</a></li>
+                        <li><a href="product-detail.html?item=sunglasses-covers"><span class="chev">&gt;</span> Sunglasses covers</a></li>
+                        <li><a href="product-detail.html?item=phone-covers"><span class="chev">&gt;</span> Phone covers</a></li>
+                        <li><a href="product-detail.html?item=earphone-covers"><span class="chev">&gt;</span> Ear phone covers</a></li>
+                        <li><a href="product-detail.html?item=flower-pots-3-size"><span class="chev">&gt;</span> Flower Pots (3 sizes)</a></li>
+                        <li><a href="product-detail.html?item=fridge-magnets"><span class="chev">&gt;</span> Fridge magnets</a></li>
+                        <li><a href="product-detail.html?item=scrunchies"><span class="chev">&gt;</span> Scrunchies</a></li>
+                        <li><a href="product-detail.html?item=bow-pins"><span class="chev">&gt;</span> Bow pins</a></li>
+                        <li><a href="product-detail.html?item=car-charms"><span class="chev">&gt;</span> Car charms</a></li>
+                        <li><a href="product-detail.html?item=curtains-holders"><span class="chev">&gt;</span> Curtains holders</a></li>
+                        <li><a href="product-detail.html?item=crochet-frames"><span class="chev">&gt;</span> Crochet frames</a></li>
+                    </ul>
+                </div>
+
+                <div class="category-card highlight-card">
+                    <div class="category-card-header">
+                        <h3>Other Products / Chenille</h3>
+                        <div class="header-underline"></div>
+                    </div>
+                    <ul class="sub-category-list">
+                        <li><a href="product-detail.html?item=chenille-flowers"><span class="chev">&gt;</span> Flowers</a></li>
+                        <li><a href="product-detail.html?item=chenille-side-fillers"><span class="chev">&gt;</span> Side Fillers</a></li>
+                        <li><a href="product-detail.html?item=chenille-leaf-fillers"><span class="chev">&gt;</span> Leaf Fillers</a></li>
+                        <li><a href="product-detail.html?item=chenille-bouquet"><span class="chev">&gt;</span> Bouquet</a></li>
+                        <li><a href="product-detail.html?item=chenille-pots"><span class="chev">&gt;</span> Pots</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- GET IN TOUCH / ORDERING SECTION -->
+        <section class="get-in-touch-section" id="contact">
+            <div class="contact-container">
+                <div class="contact-header">
+                    <h2>Get In Touch</h2>
+                    <p class="order-subtitle">for anything to order……</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="journey-card">
+                        <h3 class="journey-title">Want to be a part of our journey?</h3>
+                        <p class="journey-desc">
+                            Whether as an artisan, a partner, or a supporter, your presence makes our thread stronger.
+                        </p>
+
+                        <div class="inspirational-quote-box">
+                            <span class="quote-symbol">“</span>
+                            <p class="quote-text">
+                                Believing in the power of art to transform lives.
+                            </p>
+                            <div class="quote-author-info">
+                                <strong>Ridhima Gupta</strong>
+                                <span class="author-title">FOUNDER</span>
+                            </div>
+                        </div>
+
+                        <div class="quick-contact-pills">
+                            <a href="https://wa.me/?text=Hi%20Kala%20ki%20Dor,%20I%20would%20like%20to%20place%20an%20order!" target="_blank" class="quick-pill whatsapp-pill">
+                                💬 WhatsApp Us to Order
+                            </a>
+                            <a href="https://instagram.com/kalakidor" target="_blank" class="quick-pill instagram-pill">
+                                📸 Instagram @kalakidor
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-card">
+                        <h3>Send Us a Message / Order Inquiry</h3>
+                        <form id="contactForm" onsubmit="event.preventDefault(); alert('Thank you for reaching out to Kala ki Dor! Ridhima & the team will respond shortly.');">
+                            <div class="form-group">
+                                <label for="userName">Your Full Name</label>
+                                <input type="text" id="userName" placeholder="e.g. Ananya Sharma" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="userContact">Email Address or Phone Number</label>
+                                <input type="text" id="userContact" placeholder="e.g. ananya@example.com or +91 98765 43210" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inquiryType">Inquiry / Order Type</label>
+                                <select id="inquiryType">
+                                    <option value="product-order">Product Order Request (Crochet / Chenille)</option>
+                                    <option value="artisan">Artisan Collaboration</option>
+                                    <option value="partnership">Partner with Kala ki Dor</option>
+                                    <option value="supporter">Volunteer / Supporter</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="userMessage">Message / Products You Want to Order</label>
+                                <textarea id="userMessage" rows="4" placeholder="Tell us about the items you wish to order or how you'd like to collaborate..." required></textarea>
+                            </div>
+                            <button type="submit" class="submit-contact-btn">
+                                Send Order Request / Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DEDICATED RETURN POLICY SECTION -->
+        <section class="return-policy-section" id="return-policy">
+            <div class="policy-container">
+                <div class="policy-header-badge">
+                    <span>Quality Assurance & Policy</span>
+                </div>
+                <h2 class="policy-title">Return Policy</h2>
+                
+                <div class="policy-card">
+                    <div class="policy-intro">
+                        <p>
+                            All our products are handcrafted by traditional craft persons, resulting in each product being unique and slightly different from each other.
+                        </p>
+                        <p>
+                            An irregular weave, print, or stitch should not be taken as a defect, as handcrafted products will not show consistent uniformity like a machine-made product.
+                        </p>
+                        <p class="highlight-assurance">
+                            Despite these variables, at <strong>KALA KI DOR</strong>, we stand behind the quality of our products and we allow exchange of your purchase in certain circumstances.
+                        </p>
+                    </div>
+
+                    <div class="policy-rules-grid">
+                        <div class="rule-box">
+                            <span class="rule-icon">⏱️</span>
+                            <h4>24-Hour Exchange Policy</h4>
+                            <p>We have a 24-hour Exchange policy, which means you have 24 hours after receiving your item to request an exchange.</p>
+                        </div>
+                        <div class="rule-box">
+                            <span class="rule-icon">📦</span>
+                            <h4>Unboxing Video Mandatory</h4>
+                            <p>We only accept returns in case of a damaged product. To be eligible for a return, you must provide an unboxing video showing you opening the package.</p>
+                        </div>
+                        <div class="rule-box">
+                            <span class="rule-icon">🚫</span>
+                            <h4>No Mind-Change Returns</h4>
+                            <p>We do not accept returns or exchanges due to reasons like change of mind, lack of utility, etc.</p>
+                        </div>
+                        <div class="rule-box">
+                            <span class="rule-icon">🚚</span>
+                            <h4>Self-Ship & Shipping Charges</h4>
+                            <p>You have to self-ship the product and we will not cover shipping charges for Return/Exchange. Address provided based on nearest office.</p>
+                        </div>
+                    </div>
+
+                    <div class="policy-footer-note">
+                        <p>
+                            To start a return or exchange, or for any questions, you can contact us directly on Instagram <strong><a href="https://instagram.com/kalakidor" target="_blank">@kalakidor</a></strong>. 
+                        </p>
+                        <p class="warning-text">
+                            * Please note: We are not liable for any Returns/exchanges that we were not notified about first.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- RETURN POLICY POPUP MODAL WINDOW -->
+    <div class="policy-modal-overlay" id="policyModalOverlay">
+        <div class="policy-modal-window">
+            <button class="close-policy-modal" id="closePolicyModalBtn">&times;</button>
+            <div class="modal-policy-content">
+                <h3>Return Policy • KALA KI DOR</h3>
+                <p>All our products are handcrafted by traditional craft persons, resulting in each product being unique and slightly different from each other.</p>
+                <p>An irregular weave, print, or stitch should not be taken as a defect, as handcrafted products will not show consistent uniformity like a machine-made product.</p>
+                <p>Despite these variables, at KALA KI DOR, we stand behind the quality of our products and we allow exchange of your purchase in certain circumstances.</p>
+                <ul class="modal-rules-list">
+                    <li>⏱️ <strong>24-Hour Exchange Policy:</strong> Request within 24 hours after receiving your item.</li>
+                    <li>📦 <strong>Damaged Product Returns:</strong> Must provide an unboxing video showing package opening.</li>
+                    <li>🚫 <strong>Non-eligible reasons:</strong> No returns for change of mind or lack of utility.</li>
+                    <li>🚚 <strong>Shipping:</strong> You have to self-ship the product; shipping charges are not covered.</li>
+                    <li>📸 <strong>Start Return:</strong> Contact us first at Instagram <a href="https://instagram.com/kalakidor" target="_blank">@kalakidor</a>.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="brand-logo"><span class="logo-accent">KALA</span> KI DOR</a>
+                <p>Craft with Love, Sold for a Cause. A living tribute to Navya.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#return-policy" id="openPolicyModalLink">Return Policy</a>
+                <a href="https://instagram.com/kalakidor" target="_blank">Instagram @kalakidor</a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Kala ki Dor. All Rights Reserved. Empowering Artisans Worldwide.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- NEED HELP CHAT WIDGET MODAL -->
+    <div class="help-modal" id="helpModal">
+        <div class="help-modal-header">
+            <div class="help-modal-user">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="Support Specialist">
+                <div>
+                    <h4>Kala ki Dor Team</h4>
+                    <span class="online-status">● Online</span>
+                </div>
+            </div>
+            <button class="close-help" id="closeHelpBtn">&times;</button>
+        </div>
+        <div class="help-modal-body">
+            <div class="chat-bubble received">
+                Namaste! How can we assist you with our handcrafted products or artisan cause today?
+            </div>
+        </div>
+        <div class="help-modal-footer">
+            <input type="text" placeholder="Type your message..." id="helpMsgInput">
+            <button id="sendHelpMsgBtn">Send</button>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

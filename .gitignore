@@ -1,0 +1,16 @@
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python Cache & Scripts
+__pycache__/
+*.pyc
+fetch_drive.py
+crop.py
+classify_images.py
+
+# Temporary / Scratch Files
+scratch/
+*.log
