@@ -1102,6 +1102,17 @@ const KALA_PRODUCTS = [
   },
   {
     "id": "101",
+    "slug": "crochet-minion-keychain",
+    "categorySlug": "key-chains",
+    "category": "Key Chains",
+    "tag": "Crochet Keychains & Charms",
+    "title": "\ud83d\udd14 Crochet Minion Keychain",
+    "image": "images/products/key-chains/crochet-minion-keychain.jpg",
+    "price": "\u20b9200/-",
+    "description": "\ud83c\udf38 100% Handmade with soft, premium yarn\n\ud83d\udd11 Perfect for keys, bags & backpacks\n\ud83d\udca7 Washable & easy to maintain\n\ud83c\udf3f Lightweight, reusable & durable\n\ud83c\udfa8 Colour customisation available\n\ud83c\udf81 Perfect for gifting & return favours\n\nHandmade \u2022 Cute \u2022 Functional \u2022 Giftable \u2728"
+  },
+  {
+    "id": "102",
     "slug": "key-chains-1",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1112,7 +1123,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "102",
+    "id": "103",
     "slug": "key-chains-2",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1123,7 +1134,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "103",
+    "id": "104",
     "slug": "key-chains-3",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1134,7 +1145,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "104",
+    "id": "105",
     "slug": "key-chains-4",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1145,7 +1156,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "105",
+    "id": "106",
     "slug": "key-chains-5",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1156,7 +1167,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "106",
+    "id": "107",
     "slug": "key-chains-6",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1167,7 +1178,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "107",
+    "id": "108",
     "slug": "key-chains-7",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1178,7 +1189,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "108",
+    "id": "109",
     "slug": "key-chains-8",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1189,7 +1200,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "109",
+    "id": "110",
     "slug": "key-chains-9",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1200,7 +1211,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "110",
+    "id": "111",
     "slug": "key-chains-10",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1211,7 +1222,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "111",
+    "id": "112",
     "slug": "key-chains-11",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1222,7 +1233,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "112",
+    "id": "113",
     "slug": "key-chains-12",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1233,7 +1244,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "113",
+    "id": "114",
     "slug": "key-chains-13",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1244,7 +1255,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "114",
+    "id": "115",
     "slug": "key-chains-14",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1255,7 +1266,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "115",
+    "id": "116",
     "slug": "key-chains-15",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1266,7 +1277,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "116",
+    "id": "117",
     "slug": "key-chains-16",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1277,7 +1288,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "117",
+    "id": "118",
     "slug": "key-chains-17",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1288,7 +1299,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "118",
+    "id": "119",
     "slug": "key-chains-18",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1299,7 +1310,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "119",
+    "id": "120",
     "slug": "key-chains-19",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1310,7 +1321,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "120",
+    "id": "121",
     "slug": "key-chains-20",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1321,7 +1332,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "121",
+    "id": "122",
     "slug": "key-chains-21",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1332,7 +1343,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "122",
+    "id": "123",
     "slug": "key-chains-22",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1343,7 +1354,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "123",
+    "id": "124",
     "slug": "key-chains-23",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1354,7 +1365,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "124",
+    "id": "125",
     "slug": "key-chains-24",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1365,7 +1376,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "125",
+    "id": "126",
     "slug": "key-chains-25",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1376,7 +1387,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "126",
+    "id": "127",
     "slug": "key-chains-26",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1387,7 +1398,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "127",
+    "id": "128",
     "slug": "key-chains-27",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1398,7 +1409,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "128",
+    "id": "129",
     "slug": "key-chains-28",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1409,7 +1420,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "129",
+    "id": "130",
     "slug": "key-chains-29",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1420,7 +1431,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "130",
+    "id": "131",
     "slug": "key-chains-30",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1431,7 +1442,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "131",
+    "id": "132",
     "slug": "key-chains-31",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1442,7 +1453,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "132",
+    "id": "133",
     "slug": "key-chains-32",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1453,7 +1464,7 @@ const KALA_PRODUCTS = [
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "133",
+    "id": "134",
     "slug": "potli-bags-1",
     "categorySlug": "potli-bags",
     "category": "Potli Bags",
@@ -1464,7 +1475,7 @@ const KALA_PRODUCTS = [
     "description": "Graceful festive potli bag with traditional crochet weaving, delicate drawstring tassels, and ample room for festive essentials and celebrations."
   },
   {
-    "id": "134",
+    "id": "135",
     "slug": "potli-bags-2",
     "categorySlug": "potli-bags",
     "category": "Potli Bags",
@@ -1475,7 +1486,7 @@ const KALA_PRODUCTS = [
     "description": "Graceful festive potli bag with traditional crochet weaving, delicate drawstring tassels, and ample room for festive essentials and celebrations."
   },
   {
-    "id": "135",
+    "id": "136",
     "slug": "potli-bags-3",
     "categorySlug": "potli-bags",
     "category": "Potli Bags",
@@ -1486,7 +1497,7 @@ const KALA_PRODUCTS = [
     "description": "Graceful festive potli bag with traditional crochet weaving, delicate drawstring tassels, and ample room for festive essentials and celebrations."
   },
   {
-    "id": "136",
+    "id": "137",
     "slug": "potli-bags-4",
     "categorySlug": "potli-bags",
     "category": "Potli Bags",
@@ -1497,7 +1508,7 @@ const KALA_PRODUCTS = [
     "description": "Graceful festive potli bag with traditional crochet weaving, delicate drawstring tassels, and ample room for festive essentials and celebrations."
   },
   {
-    "id": "137",
+    "id": "138",
     "slug": "potli-bags-5",
     "categorySlug": "potli-bags",
     "category": "Potli Bags",
@@ -1508,7 +1519,7 @@ const KALA_PRODUCTS = [
     "description": "Graceful festive potli bag with traditional crochet weaving, delicate drawstring tassels, and ample room for festive essentials and celebrations."
   },
   {
-    "id": "138",
+    "id": "139",
     "slug": "specs-holder-1",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1519,7 +1530,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "139",
+    "id": "140",
     "slug": "specs-holder-2",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1530,7 +1541,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "140",
+    "id": "141",
     "slug": "specs-holder-3",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1541,7 +1552,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "141",
+    "id": "142",
     "slug": "specs-holder-4",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1552,7 +1563,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "142",
+    "id": "143",
     "slug": "specs-holder-5",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1563,7 +1574,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "143",
+    "id": "144",
     "slug": "specs-holder-6",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1574,7 +1585,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "144",
+    "id": "145",
     "slug": "specs-holder-7",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1585,7 +1596,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "145",
+    "id": "146",
     "slug": "sunglass-cover-1",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1596,7 +1607,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "146",
+    "id": "147",
     "slug": "sunglass-cover-2",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1607,7 +1618,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "147",
+    "id": "148",
     "slug": "sunglass-cover-3",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1618,7 +1629,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "148",
+    "id": "149",
     "slug": "sunglass-cover-4",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1629,7 +1640,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "149",
+    "id": "150",
     "slug": "sunglass-cover-5",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1640,7 +1651,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "150",
+    "id": "151",
     "slug": "sunglass-cover-6",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1651,7 +1662,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "151",
+    "id": "152",
     "slug": "sunglass-cover-7",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1662,7 +1673,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "152",
+    "id": "153",
     "slug": "sunglass-cover-8",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1673,7 +1684,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "153",
+    "id": "154",
     "slug": "sunglass-cover-9",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1684,7 +1695,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "154",
+    "id": "155",
     "slug": "sunglass-cover-10",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1695,7 +1706,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "155",
+    "id": "156",
     "slug": "sunglass-cover-11",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1706,7 +1717,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "156",
+    "id": "157",
     "slug": "sunglass-cover-12",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1717,7 +1728,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "157",
+    "id": "158",
     "slug": "sunglass-cover-13",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1728,7 +1739,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "158",
+    "id": "159",
     "slug": "sunglass-cover-14",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1739,7 +1750,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "159",
+    "id": "160",
     "slug": "tote-bags-1",
     "categorySlug": "tote-bags",
     "category": "Tote Bags",
@@ -1750,7 +1761,7 @@ const KALA_PRODUCTS = [
     "description": "Durable, eco-friendly handcrafted crochet tote bag made with reinforced premium yarn handles. Spacious and chic for casual outings or work."
   },
   {
-    "id": "160",
+    "id": "161",
     "slug": "tote-bags-2",
     "categorySlug": "tote-bags",
     "category": "Tote Bags",
@@ -1761,7 +1772,7 @@ const KALA_PRODUCTS = [
     "description": "Durable, eco-friendly handcrafted crochet tote bag made with reinforced premium yarn handles. Spacious and chic for casual outings or work."
   },
   {
-    "id": "161",
+    "id": "162",
     "slug": "tote-bags-3",
     "categorySlug": "tote-bags",
     "category": "Tote Bags",
@@ -1772,7 +1783,7 @@ const KALA_PRODUCTS = [
     "description": "Durable, eco-friendly handcrafted crochet tote bag made with reinforced premium yarn handles. Spacious and chic for casual outings or work."
   },
   {
-    "id": "162",
+    "id": "163",
     "slug": "tote-bags-4",
     "categorySlug": "tote-bags",
     "category": "Tote Bags",
@@ -1783,7 +1794,7 @@ const KALA_PRODUCTS = [
     "description": "Durable, eco-friendly handcrafted crochet tote bag made with reinforced premium yarn handles. Spacious and chic for casual outings or work."
   },
   {
-    "id": "163",
+    "id": "164",
     "slug": "toys-1",
     "categorySlug": "toys",
     "category": "Toys",

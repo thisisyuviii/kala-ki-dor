@@ -59,9 +59,32 @@ product_id = 1
 
 for cat_slug, cat_info in categories.items():
     folder_path = cat_info['dir']
+    
+    # Specific featured product for Key Chains
+    if cat_slug == 'key-chains':
+        all_products.append({
+            'id': str(product_id),
+            'slug': 'crochet-minion-keychain',
+            'categorySlug': 'key-chains',
+            'category': 'Key Chains',
+            'tag': 'Crochet Keychains & Charms',
+            'title': '🔔 Crochet Minion Keychain',
+            'image': 'images/products/key-chains/crochet-minion-keychain.jpg',
+            'price': '₹200/-',
+            'description': """🌸 100% Handmade with soft, premium yarn
+🔑 Perfect for keys, bags & backpacks
+💧 Washable & easy to maintain
+🌿 Lightweight, reusable & durable
+🎨 Colour customisation available
+🎁 Perfect for gifting & return favours
+
+Handmade • Cute • Functional • Giftable ✨"""
+        })
+        product_id += 1
+
     if os.path.exists(folder_path):
         files = sorted(
-            [f for f in os.listdir(folder_path) if f.endswith('.jpg') or f.endswith('.jpeg')],
+            [f for f in os.listdir(folder_path) if (f.endswith('.jpg') or f.endswith('.jpeg')) and f != 'crochet-minion-keychain.jpg'],
             key=lambda x: int(x.split('_')[1].split('.')[0]) if '_' in x and x.split('_')[1].split('.')[0].isdigit() else 999
         )
         for idx, fname in enumerate(files):
@@ -106,4 +129,4 @@ js_content = f"// Complete Handcrafted Products Database\nconst KALA_PRODUCTS = 
 with open('products_data.js', 'w', encoding='utf-8') as f:
     f.write(js_content)
 
-print("Saved products_data.js successfully!")
+print("Saved products_data.js successfully with Crochet Minion Keychain!")
