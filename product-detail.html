@@ -2,17 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Handcrafted Product Details | Kala ki Dor</title>
     <meta name="description" content="View individual handcrafted product details created with love by empowered women artisans at Kala ki Dor.">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Custom CSS with Cache Buster -->
+    <link rel="stylesheet" href="style.css?v=3.0">
 </head>
 <body>
+
+    <!-- FLOATING THEME SWITCHER (ALWAYS VISIBLE IN BOTTOM CORNER) -->
+    <div class="floating-theme-switch" id="floatingThemeSwitch" style="position: fixed; bottom: 24px; left: 24px; z-index: 99999;">
+        <button class="theme-switch-pill" id="themeSwitchPillBtn" aria-label="Toggle Dark/Light Mode" title="Click to Switch Theme">
+            <span class="theme-switch-icon" id="themeSwitchIcon">🌙</span>
+            <span class="theme-switch-text" id="themeSwitchText">Switch to Dark Mode</span>
+        </button>
+    </div>
 
     <!-- TOP TAB / NAVIGATION BAR -->
     <header class="top-nav-header">
@@ -30,10 +38,60 @@
                 </ul>
             </nav>
             <div class="nav-actions">
-                <a href="index.html#contact" class="get-in-touch-btn">Get in touch</a>
+                <button class="theme-nav-pill-btn" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Switch Theme">
+                    <span class="theme-nav-icon">🌙</span>
+                    <span class="theme-nav-label">Dark Mode</span>
+                </button>
+                <a href="index.html#contact" class="get-in-touch-btn">
+                    <span class="btn-icon">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    </span>
+                    <span class="btn-text">Get in touch</span>
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu">
+                    <span></span><span></span><span></span>
+                </button>
             </div>
         </div>
     </header>
+
+    <!-- MOBILE NAVIGATION DRAWER -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+    <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+        <div class="mobile-drawer-header">
+            <a href="index.html" class="brand-logo"><span class="logo-accent">KALA</span> KI DOR</a>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <button class="theme-nav-pill-btn" id="mobileThemeToggleBtn" aria-label="Toggle Theme" style="padding: 6px 12px; font-size: 0.8rem;">
+                    <span class="theme-nav-icon">🌙</span>
+                    <span class="theme-nav-label">Theme</span>
+                </button>
+                <button class="close-mobile-nav" id="closeMobileNavBtn" aria-label="Close Navigation Menu">&times;</button>
+            </div>
+        </div>
+        <div class="mobile-drawer-body">
+            <ul class="mobile-nav-list">
+                <li><a href="index.html" class="mobile-nav-link">🏠 Home</a></li>
+                <li><a href="catalog.html" class="mobile-nav-link active">✨ All Products (98 Items)</a></li>
+                <li class="mobile-nav-category-header">Collections</li>
+                <li><a href="catalog.html?category=flowers" class="mobile-nav-sublink">🌸 Flowers (50 items)</a></li>
+                <li><a href="catalog.html?category=key-chains" class="mobile-nav-sublink">🔑 Key Chains & Minion (17 items)</a></li>
+                <li><a href="catalog.html?category=potli-bags" class="mobile-nav-sublink">👛 Potli Bags (5 items)</a></li>
+                <li><a href="catalog.html?category=specs-holder" class="mobile-nav-sublink">🕶️ Specs Holder (7 items)</a></li>
+                <li><a href="catalog.html?category=sunglass-cover" class="mobile-nav-sublink">👓 Sunglass Cover (14 items)</a></li>
+                <li><a href="catalog.html?category=tote-bags" class="mobile-nav-sublink">👜 Tote Bags (4 items)</a></li>
+                <li><a href="catalog.html?category=toys" class="mobile-nav-sublink">🧸 Toys (1 item)</a></li>
+                <li class="mobile-nav-category-header">About & Social Cause</li>
+                <li><a href="index.html#about-us-section" class="mobile-nav-link">📖 About Us & Story</a></li>
+                <li><a href="index.html#contact" class="mobile-nav-link">💬 Get In Touch / Order</a></li>
+                <li><a href="index.html#return-policy" class="mobile-nav-link">🛡️ Return Policy</a></li>
+            </ul>
+            <div class="mobile-drawer-footer">
+                <a href="https://wa.me/?text=Hi%20Kala%20ki%20Dor,%20I%20would%20like%20to%20place%20an%20order!" target="_blank" class="mobile-wa-btn">
+                    💬 Order via WhatsApp
+                </a>
+            </div>
+        </div>
+    </aside>
 
     <!-- DEDICATED SEPARATE PRODUCT PAGE -->
     <main class="product-page-wrapper">
@@ -91,7 +149,7 @@
                     </a>
                 </div>
 
-                <div style="font-size: 0.88rem; color: #64748b; border-top: 1px solid #e2e8f0; padding-top: 16px;">
+                <div style="font-size: 0.84rem; color: var(--color-text-secondary); border-top: 1px solid var(--border-warm); padding-top: 14px;">
                     🛡️ <strong>24-Hour Exchange Policy</strong>: Handcrafted uniqueness guaranteed. Video unboxing proof required for damages.
                 </div>
             </div>
@@ -117,8 +175,9 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="products_data.js"></script>
+    <!-- Scripts with Cache Buster -->
+    <script src="products_data.js?v=3.0"></script>
+    <script src="script.js?v=3.0"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const urlParams = new URLSearchParams(window.location.search);

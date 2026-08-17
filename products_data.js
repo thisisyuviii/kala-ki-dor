@@ -7,7 +7,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #1",
-    "image": "images/products/flowers/img_1.jpg",
+    "image": "images/products/flowers/item_1.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -18,7 +18,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #2",
-    "image": "images/products/flowers/item_1.jpg",
+    "image": "images/products/flowers/item_2.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -29,7 +29,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #3",
-    "image": "images/products/flowers/img_2.jpg",
+    "image": "images/products/flowers/item_3.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -40,7 +40,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #4",
-    "image": "images/products/flowers/item_2.jpg",
+    "image": "images/products/flowers/item_4.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -51,7 +51,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #5",
-    "image": "images/products/flowers/img_3.jpg",
+    "image": "images/products/flowers/item_5.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -62,7 +62,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #6",
-    "image": "images/products/flowers/item_3.jpg",
+    "image": "images/products/flowers/item_6.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -73,7 +73,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #7",
-    "image": "images/products/flowers/img_4.jpg",
+    "image": "images/products/flowers/item_7.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -84,7 +84,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #8",
-    "image": "images/products/flowers/item_4.jpg",
+    "image": "images/products/flowers/item_8.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -95,7 +95,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #9",
-    "image": "images/products/flowers/img_5.jpg",
+    "image": "images/products/flowers/item_9.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -106,7 +106,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #10",
-    "image": "images/products/flowers/item_5.jpg",
+    "image": "images/products/flowers/item_10.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -117,7 +117,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #11",
-    "image": "images/products/flowers/img_6.jpg",
+    "image": "images/products/flowers/item_11.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -128,7 +128,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #12",
-    "image": "images/products/flowers/item_6.jpg",
+    "image": "images/products/flowers/item_12.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -139,7 +139,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #13",
-    "image": "images/products/flowers/img_7.jpg",
+    "image": "images/products/flowers/item_13.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -150,7 +150,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #14",
-    "image": "images/products/flowers/item_7.jpg",
+    "image": "images/products/flowers/item_14.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -161,7 +161,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #15",
-    "image": "images/products/flowers/img_8.jpg",
+    "image": "images/products/flowers/item_15.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -172,7 +172,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #16",
-    "image": "images/products/flowers/item_8.jpg",
+    "image": "images/products/flowers/item_16.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -183,7 +183,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #17",
-    "image": "images/products/flowers/img_9.jpg",
+    "image": "images/products/flowers/item_17.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -194,7 +194,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #18",
-    "image": "images/products/flowers/item_9.jpg",
+    "image": "images/products/flowers/item_18.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -205,7 +205,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #19",
-    "image": "images/products/flowers/img_10.jpg",
+    "image": "images/products/flowers/item_19.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -216,7 +216,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #20",
-    "image": "images/products/flowers/item_10.jpg",
+    "image": "images/products/flowers/item_20.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -227,7 +227,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #21",
-    "image": "images/products/flowers/img_11.jpg",
+    "image": "images/products/flowers/item_21.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -238,7 +238,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #22",
-    "image": "images/products/flowers/item_11.jpg",
+    "image": "images/products/flowers/item_22.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -249,7 +249,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #23",
-    "image": "images/products/flowers/img_12.jpg",
+    "image": "images/products/flowers/item_23.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -260,7 +260,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #24",
-    "image": "images/products/flowers/item_12.jpg",
+    "image": "images/products/flowers/item_24.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -271,7 +271,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #25",
-    "image": "images/products/flowers/img_13.jpg",
+    "image": "images/products/flowers/item_25.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -282,7 +282,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #26",
-    "image": "images/products/flowers/item_13.jpg",
+    "image": "images/products/flowers/item_26.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -293,7 +293,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #27",
-    "image": "images/products/flowers/img_14.jpg",
+    "image": "images/products/flowers/item_27.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -304,7 +304,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #28",
-    "image": "images/products/flowers/item_14.jpg",
+    "image": "images/products/flowers/item_28.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -315,7 +315,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #29",
-    "image": "images/products/flowers/img_15.jpg",
+    "image": "images/products/flowers/item_29.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -326,7 +326,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #30",
-    "image": "images/products/flowers/item_15.jpg",
+    "image": "images/products/flowers/item_30.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -337,7 +337,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #31",
-    "image": "images/products/flowers/img_16.jpg",
+    "image": "images/products/flowers/item_31.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -348,7 +348,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #32",
-    "image": "images/products/flowers/item_16.jpg",
+    "image": "images/products/flowers/item_32.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -359,7 +359,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #33",
-    "image": "images/products/flowers/img_17.jpg",
+    "image": "images/products/flowers/item_33.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -370,7 +370,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #34",
-    "image": "images/products/flowers/item_17.jpg",
+    "image": "images/products/flowers/item_34.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -381,7 +381,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #35",
-    "image": "images/products/flowers/img_18.jpg",
+    "image": "images/products/flowers/item_35.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -392,7 +392,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #36",
-    "image": "images/products/flowers/item_18.jpg",
+    "image": "images/products/flowers/item_36.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -403,7 +403,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #37",
-    "image": "images/products/flowers/img_19.jpg",
+    "image": "images/products/flowers/item_37.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -414,7 +414,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #38",
-    "image": "images/products/flowers/item_19.jpg",
+    "image": "images/products/flowers/item_38.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -425,7 +425,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #39",
-    "image": "images/products/flowers/img_20.jpg",
+    "image": "images/products/flowers/item_39.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -436,7 +436,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #40",
-    "image": "images/products/flowers/item_20.jpg",
+    "image": "images/products/flowers/item_40.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -447,7 +447,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #41",
-    "image": "images/products/flowers/img_21.jpg",
+    "image": "images/products/flowers/item_41.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -458,7 +458,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #42",
-    "image": "images/products/flowers/item_21.jpg",
+    "image": "images/products/flowers/item_42.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -469,7 +469,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #43",
-    "image": "images/products/flowers/img_22.jpg",
+    "image": "images/products/flowers/item_43.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -480,7 +480,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #44",
-    "image": "images/products/flowers/item_22.jpg",
+    "image": "images/products/flowers/item_44.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -491,7 +491,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #45",
-    "image": "images/products/flowers/img_23.jpg",
+    "image": "images/products/flowers/item_45.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -502,7 +502,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #46",
-    "image": "images/products/flowers/item_23.jpg",
+    "image": "images/products/flowers/item_46.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -513,7 +513,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #47",
-    "image": "images/products/flowers/img_24.jpg",
+    "image": "images/products/flowers/item_47.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -524,7 +524,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #48",
-    "image": "images/products/flowers/item_24.jpg",
+    "image": "images/products/flowers/item_48.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -535,7 +535,7 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #49",
-    "image": "images/products/flowers/img_25.jpg",
+    "image": "images/products/flowers/item_49.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
@@ -546,562 +546,12 @@ const KALA_PRODUCTS = [
     "category": "Flowers",
     "tag": "Crochet & Chenille Flowers",
     "title": "Flowers - Design #50",
-    "image": "images/products/flowers/item_25.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "51",
-    "slug": "flowers-51",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #51",
-    "image": "images/products/flowers/img_26.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "52",
-    "slug": "flowers-52",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #52",
-    "image": "images/products/flowers/item_26.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "53",
-    "slug": "flowers-53",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #53",
-    "image": "images/products/flowers/img_27.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "54",
-    "slug": "flowers-54",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #54",
-    "image": "images/products/flowers/item_27.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "55",
-    "slug": "flowers-55",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #55",
-    "image": "images/products/flowers/img_28.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "56",
-    "slug": "flowers-56",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #56",
-    "image": "images/products/flowers/item_28.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "57",
-    "slug": "flowers-57",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #57",
-    "image": "images/products/flowers/img_29.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "58",
-    "slug": "flowers-58",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #58",
-    "image": "images/products/flowers/item_29.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "59",
-    "slug": "flowers-59",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #59",
-    "image": "images/products/flowers/img_30.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "60",
-    "slug": "flowers-60",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #60",
-    "image": "images/products/flowers/item_30.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "61",
-    "slug": "flowers-61",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #61",
-    "image": "images/products/flowers/img_31.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "62",
-    "slug": "flowers-62",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #62",
-    "image": "images/products/flowers/item_31.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "63",
-    "slug": "flowers-63",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #63",
-    "image": "images/products/flowers/img_32.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "64",
-    "slug": "flowers-64",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #64",
-    "image": "images/products/flowers/item_32.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "65",
-    "slug": "flowers-65",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #65",
-    "image": "images/products/flowers/img_33.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "66",
-    "slug": "flowers-66",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #66",
-    "image": "images/products/flowers/item_33.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "67",
-    "slug": "flowers-67",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #67",
-    "image": "images/products/flowers/img_34.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "68",
-    "slug": "flowers-68",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #68",
-    "image": "images/products/flowers/item_34.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "69",
-    "slug": "flowers-69",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #69",
-    "image": "images/products/flowers/img_35.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "70",
-    "slug": "flowers-70",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #70",
-    "image": "images/products/flowers/item_35.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "71",
-    "slug": "flowers-71",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #71",
-    "image": "images/products/flowers/img_36.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "72",
-    "slug": "flowers-72",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #72",
-    "image": "images/products/flowers/item_36.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "73",
-    "slug": "flowers-73",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #73",
-    "image": "images/products/flowers/img_37.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "74",
-    "slug": "flowers-74",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #74",
-    "image": "images/products/flowers/item_37.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "75",
-    "slug": "flowers-75",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #75",
-    "image": "images/products/flowers/img_38.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "76",
-    "slug": "flowers-76",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #76",
-    "image": "images/products/flowers/item_38.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "77",
-    "slug": "flowers-77",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #77",
-    "image": "images/products/flowers/img_39.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "78",
-    "slug": "flowers-78",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #78",
-    "image": "images/products/flowers/item_39.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "79",
-    "slug": "flowers-79",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #79",
-    "image": "images/products/flowers/img_40.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "80",
-    "slug": "flowers-80",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #80",
-    "image": "images/products/flowers/item_40.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "81",
-    "slug": "flowers-81",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #81",
-    "image": "images/products/flowers/img_41.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "82",
-    "slug": "flowers-82",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #82",
-    "image": "images/products/flowers/item_41.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "83",
-    "slug": "flowers-83",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #83",
-    "image": "images/products/flowers/img_42.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "84",
-    "slug": "flowers-84",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #84",
-    "image": "images/products/flowers/item_42.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "85",
-    "slug": "flowers-85",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #85",
-    "image": "images/products/flowers/img_43.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "86",
-    "slug": "flowers-86",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #86",
-    "image": "images/products/flowers/item_43.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "87",
-    "slug": "flowers-87",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #87",
-    "image": "images/products/flowers/img_44.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "88",
-    "slug": "flowers-88",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #88",
-    "image": "images/products/flowers/item_44.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "89",
-    "slug": "flowers-89",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #89",
-    "image": "images/products/flowers/img_45.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "90",
-    "slug": "flowers-90",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #90",
-    "image": "images/products/flowers/item_45.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "91",
-    "slug": "flowers-91",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #91",
-    "image": "images/products/flowers/img_46.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "92",
-    "slug": "flowers-92",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #92",
-    "image": "images/products/flowers/item_46.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "93",
-    "slug": "flowers-93",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #93",
-    "image": "images/products/flowers/img_47.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "94",
-    "slug": "flowers-94",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #94",
-    "image": "images/products/flowers/item_47.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "95",
-    "slug": "flowers-95",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #95",
-    "image": "images/products/flowers/img_48.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "96",
-    "slug": "flowers-96",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #96",
-    "image": "images/products/flowers/item_48.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "97",
-    "slug": "flowers-97",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #97",
-    "image": "images/products/flowers/img_49.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "98",
-    "slug": "flowers-98",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #98",
-    "image": "images/products/flowers/item_49.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "99",
-    "slug": "flowers-99",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #99",
-    "image": "images/products/flowers/img_50.jpg",
-    "price": "\u20b9299 - \u20b9899",
-    "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
-  },
-  {
-    "id": "100",
-    "slug": "flowers-100",
-    "categorySlug": "flowers",
-    "category": "Flowers",
-    "tag": "Crochet & Chenille Flowers",
-    "title": "Flowers - Design #100",
     "image": "images/products/flowers/item_50.jpg",
     "price": "\u20b9299 - \u20b9899",
     "description": "Exquisitely hand-knitted floral masterpiece crafted with ultra-soft cotton/chenille yarn. Perfect for evergreen home decor, gifting, or personalized bouquets."
   },
   {
-    "id": "101",
+    "id": "51",
     "slug": "crochet-minion-keychain",
     "categorySlug": "key-chains",
     "category": "Key Chains",
@@ -1112,359 +562,183 @@ const KALA_PRODUCTS = [
     "description": "\ud83c\udf38 100% Handmade with soft, premium yarn\n\ud83d\udd11 Perfect for keys, bags & backpacks\n\ud83d\udca7 Washable & easy to maintain\n\ud83c\udf3f Lightweight, reusable & durable\n\ud83c\udfa8 Colour customisation available\n\ud83c\udf81 Perfect for gifting & return favours\n\nHandmade \u2022 Cute \u2022 Functional \u2022 Giftable \u2728"
   },
   {
-    "id": "102",
+    "id": "52",
     "slug": "key-chains-1",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
     "title": "Key Chains - Design #1",
-    "image": "images/products/key-chains/img_1.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "103",
-    "slug": "key-chains-2",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #2",
     "image": "images/products/key-chains/item_1.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "104",
-    "slug": "key-chains-3",
+    "id": "53",
+    "slug": "key-chains-2",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #3",
-    "image": "images/products/key-chains/img_2.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "105",
-    "slug": "key-chains-4",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #4",
+    "title": "Key Chains - Design #2",
     "image": "images/products/key-chains/item_2.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "106",
-    "slug": "key-chains-5",
+    "id": "54",
+    "slug": "key-chains-3",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #5",
-    "image": "images/products/key-chains/img_3.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "107",
-    "slug": "key-chains-6",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #6",
+    "title": "Key Chains - Design #3",
     "image": "images/products/key-chains/item_3.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "108",
-    "slug": "key-chains-7",
+    "id": "55",
+    "slug": "key-chains-4",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #7",
-    "image": "images/products/key-chains/img_4.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "109",
-    "slug": "key-chains-8",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #8",
+    "title": "Key Chains - Design #4",
     "image": "images/products/key-chains/item_4.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "110",
-    "slug": "key-chains-9",
+    "id": "56",
+    "slug": "key-chains-5",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #9",
-    "image": "images/products/key-chains/img_5.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "111",
-    "slug": "key-chains-10",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #10",
+    "title": "Key Chains - Design #5",
     "image": "images/products/key-chains/item_5.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "112",
-    "slug": "key-chains-11",
+    "id": "57",
+    "slug": "key-chains-6",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #11",
-    "image": "images/products/key-chains/img_6.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "113",
-    "slug": "key-chains-12",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #12",
+    "title": "Key Chains - Design #6",
     "image": "images/products/key-chains/item_6.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "114",
-    "slug": "key-chains-13",
+    "id": "58",
+    "slug": "key-chains-7",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #13",
-    "image": "images/products/key-chains/img_7.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "115",
-    "slug": "key-chains-14",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #14",
+    "title": "Key Chains - Design #7",
     "image": "images/products/key-chains/item_7.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "116",
-    "slug": "key-chains-15",
+    "id": "59",
+    "slug": "key-chains-8",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #15",
-    "image": "images/products/key-chains/img_8.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "117",
-    "slug": "key-chains-16",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #16",
+    "title": "Key Chains - Design #8",
     "image": "images/products/key-chains/item_8.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "118",
-    "slug": "key-chains-17",
+    "id": "60",
+    "slug": "key-chains-9",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #17",
-    "image": "images/products/key-chains/img_9.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "119",
-    "slug": "key-chains-18",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #18",
+    "title": "Key Chains - Design #9",
     "image": "images/products/key-chains/item_9.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "120",
-    "slug": "key-chains-19",
+    "id": "61",
+    "slug": "key-chains-10",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #19",
-    "image": "images/products/key-chains/img_10.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "121",
-    "slug": "key-chains-20",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #20",
+    "title": "Key Chains - Design #10",
     "image": "images/products/key-chains/item_10.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "122",
-    "slug": "key-chains-21",
+    "id": "62",
+    "slug": "key-chains-11",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #21",
-    "image": "images/products/key-chains/img_11.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "123",
-    "slug": "key-chains-22",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #22",
+    "title": "Key Chains - Design #11",
     "image": "images/products/key-chains/item_11.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "124",
-    "slug": "key-chains-23",
+    "id": "63",
+    "slug": "key-chains-12",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #23",
-    "image": "images/products/key-chains/img_12.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "125",
-    "slug": "key-chains-24",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #24",
+    "title": "Key Chains - Design #12",
     "image": "images/products/key-chains/item_12.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "126",
-    "slug": "key-chains-25",
+    "id": "64",
+    "slug": "key-chains-13",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #25",
-    "image": "images/products/key-chains/img_13.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "127",
-    "slug": "key-chains-26",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #26",
+    "title": "Key Chains - Design #13",
     "image": "images/products/key-chains/item_13.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "128",
-    "slug": "key-chains-27",
+    "id": "65",
+    "slug": "key-chains-14",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #27",
-    "image": "images/products/key-chains/img_14.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "129",
-    "slug": "key-chains-28",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #28",
+    "title": "Key Chains - Design #14",
     "image": "images/products/key-chains/item_14.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "130",
-    "slug": "key-chains-29",
+    "id": "66",
+    "slug": "key-chains-15",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #29",
-    "image": "images/products/key-chains/img_15.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "131",
-    "slug": "key-chains-30",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #30",
+    "title": "Key Chains - Design #15",
     "image": "images/products/key-chains/item_15.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "132",
-    "slug": "key-chains-31",
+    "id": "67",
+    "slug": "key-chains-16",
     "categorySlug": "key-chains",
     "category": "Key Chains",
     "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #31",
-    "image": "images/products/key-chains/img_16.jpg",
-    "price": "\u20b9149 - \u20b9349",
-    "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
-  },
-  {
-    "id": "133",
-    "slug": "key-chains-32",
-    "categorySlug": "key-chains",
-    "category": "Key Chains",
-    "tag": "Crochet Keychains & Charms",
-    "title": "Key Chains - Design #32",
+    "title": "Key Chains - Design #16",
     "image": "images/products/key-chains/item_16.jpg",
     "price": "\u20b9149 - \u20b9349",
     "description": "Charming handcrafted crochet keychain & bag accessory made with vibrant yarn and sturdy metallic clip. Adds a touch of artisanal warmth to your daily carry."
   },
   {
-    "id": "134",
+    "id": "68",
     "slug": "potli-bags-1",
     "categorySlug": "potli-bags",
     "category": "Potli Bags",
@@ -1475,7 +749,7 @@ const KALA_PRODUCTS = [
     "description": "Graceful festive potli bag with traditional crochet weaving, delicate drawstring tassels, and ample room for festive essentials and celebrations."
   },
   {
-    "id": "135",
+    "id": "69",
     "slug": "potli-bags-2",
     "categorySlug": "potli-bags",
     "category": "Potli Bags",
@@ -1486,7 +760,7 @@ const KALA_PRODUCTS = [
     "description": "Graceful festive potli bag with traditional crochet weaving, delicate drawstring tassels, and ample room for festive essentials and celebrations."
   },
   {
-    "id": "136",
+    "id": "70",
     "slug": "potli-bags-3",
     "categorySlug": "potli-bags",
     "category": "Potli Bags",
@@ -1497,7 +771,7 @@ const KALA_PRODUCTS = [
     "description": "Graceful festive potli bag with traditional crochet weaving, delicate drawstring tassels, and ample room for festive essentials and celebrations."
   },
   {
-    "id": "137",
+    "id": "71",
     "slug": "potli-bags-4",
     "categorySlug": "potli-bags",
     "category": "Potli Bags",
@@ -1508,7 +782,7 @@ const KALA_PRODUCTS = [
     "description": "Graceful festive potli bag with traditional crochet weaving, delicate drawstring tassels, and ample room for festive essentials and celebrations."
   },
   {
-    "id": "138",
+    "id": "72",
     "slug": "potli-bags-5",
     "categorySlug": "potli-bags",
     "category": "Potli Bags",
@@ -1519,7 +793,7 @@ const KALA_PRODUCTS = [
     "description": "Graceful festive potli bag with traditional crochet weaving, delicate drawstring tassels, and ample room for festive essentials and celebrations."
   },
   {
-    "id": "139",
+    "id": "73",
     "slug": "specs-holder-1",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1530,7 +804,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "140",
+    "id": "74",
     "slug": "specs-holder-2",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1541,7 +815,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "141",
+    "id": "75",
     "slug": "specs-holder-3",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1552,7 +826,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "142",
+    "id": "76",
     "slug": "specs-holder-4",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1563,7 +837,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "143",
+    "id": "77",
     "slug": "specs-holder-5",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1574,7 +848,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "144",
+    "id": "78",
     "slug": "specs-holder-6",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1585,7 +859,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "145",
+    "id": "79",
     "slug": "specs-holder-7",
     "categorySlug": "specs-holder",
     "category": "Specs Holder",
@@ -1596,7 +870,7 @@ const KALA_PRODUCTS = [
     "description": "Practical and elegant handmade crochet specs strap/holder designed to protect and keep your eyeglasses or sunglasses conveniently accessible."
   },
   {
-    "id": "146",
+    "id": "80",
     "slug": "sunglass-cover-1",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1607,7 +881,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "147",
+    "id": "81",
     "slug": "sunglass-cover-2",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1618,7 +892,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "148",
+    "id": "82",
     "slug": "sunglass-cover-3",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1629,7 +903,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "149",
+    "id": "83",
     "slug": "sunglass-cover-4",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1640,7 +914,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "150",
+    "id": "84",
     "slug": "sunglass-cover-5",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1651,7 +925,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "151",
+    "id": "85",
     "slug": "sunglass-cover-6",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1662,7 +936,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "152",
+    "id": "86",
     "slug": "sunglass-cover-7",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1673,7 +947,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "153",
+    "id": "87",
     "slug": "sunglass-cover-8",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1684,7 +958,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "154",
+    "id": "88",
     "slug": "sunglass-cover-9",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1695,7 +969,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "155",
+    "id": "89",
     "slug": "sunglass-cover-10",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1706,7 +980,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "156",
+    "id": "90",
     "slug": "sunglass-cover-11",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1717,7 +991,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "157",
+    "id": "91",
     "slug": "sunglass-cover-12",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1728,7 +1002,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "158",
+    "id": "92",
     "slug": "sunglass-cover-13",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1739,7 +1013,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "159",
+    "id": "93",
     "slug": "sunglass-cover-14",
     "categorySlug": "sunglass-cover",
     "category": "Sunglass Cover",
@@ -1750,7 +1024,7 @@ const KALA_PRODUCTS = [
     "description": "Cushioned protective crochet sleeve tailored to guard sunglasses and mobile accessories against scratches and daily bumps in style."
   },
   {
-    "id": "160",
+    "id": "94",
     "slug": "tote-bags-1",
     "categorySlug": "tote-bags",
     "category": "Tote Bags",
@@ -1761,7 +1035,7 @@ const KALA_PRODUCTS = [
     "description": "Durable, eco-friendly handcrafted crochet tote bag made with reinforced premium yarn handles. Spacious and chic for casual outings or work."
   },
   {
-    "id": "161",
+    "id": "95",
     "slug": "tote-bags-2",
     "categorySlug": "tote-bags",
     "category": "Tote Bags",
@@ -1772,7 +1046,7 @@ const KALA_PRODUCTS = [
     "description": "Durable, eco-friendly handcrafted crochet tote bag made with reinforced premium yarn handles. Spacious and chic for casual outings or work."
   },
   {
-    "id": "162",
+    "id": "96",
     "slug": "tote-bags-3",
     "categorySlug": "tote-bags",
     "category": "Tote Bags",
@@ -1783,7 +1057,7 @@ const KALA_PRODUCTS = [
     "description": "Durable, eco-friendly handcrafted crochet tote bag made with reinforced premium yarn handles. Spacious and chic for casual outings or work."
   },
   {
-    "id": "163",
+    "id": "97",
     "slug": "tote-bags-4",
     "categorySlug": "tote-bags",
     "category": "Tote Bags",
@@ -1794,7 +1068,7 @@ const KALA_PRODUCTS = [
     "description": "Durable, eco-friendly handcrafted crochet tote bag made with reinforced premium yarn handles. Spacious and chic for casual outings or work."
   },
   {
-    "id": "164",
+    "id": "98",
     "slug": "toys-1",
     "categorySlug": "toys",
     "category": "Toys",

@@ -2,32 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
     <title>Kala ki Dor | Craft with Love, Sold for a Cause</title>
     <meta name="description" content="Kala ki Dor is a living tribute founded by Ridhima Gupta in memory of her sister Navya. Empowering artisans through skill training, inclusive dignity, and mental health awareness.">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Custom CSS with Cache Buster -->
+    <link rel="stylesheet" href="style.css?v=3.0">
 </head>
 <body>
+
+    <!-- FLOATING THEME SWITCHER (ALWAYS VISIBLE IN BOTTOM-LEFT CORNER) -->
+    <div class="floating-theme-switch" id="floatingThemeSwitch" style="position: fixed; bottom: 24px; left: 24px; z-index: 99999;">
+        <button class="theme-switch-pill" id="themeSwitchPillBtn" aria-label="Toggle Dark/Light Mode" title="Click to Switch Theme">
+            <span class="theme-switch-icon" id="themeSwitchIcon">🌙</span>
+            <span class="theme-switch-text" id="themeSwitchText">Switch to Dark Mode</span>
+        </button>
+    </div>
 
     <!-- TOP TAB / NAVIGATION BAR WITH MEGA MENU DROPDOWN -->
     <header class="top-nav-header">
         <div class="nav-container">
             <!-- Brand Logo: Kala ki Dor -->
-            <a href="#" class="brand-logo" id="brandLogo">
+            <a href="index.html" class="brand-logo" id="brandLogo">
                 <span class="logo-accent">KALA</span> KI DOR
             </a>
 
-            <!-- Navigation Tabs -->
+            <!-- Navigation Tabs (Desktop) -->
             <nav class="nav-tabs" aria-label="Main Navigation">
                 <ul class="tab-list">
-                    <li class="tab-item"><a href="#new-launch" class="tab-link active" id="tabNewLaunch">New Launch</a></li>
+                    <li class="tab-item"><a href="index.html" class="tab-link active" id="tabNewLaunch">Home</a></li>
                     
-                    <!-- Mega Menu Dropdown Trigger for Crochet -->
+                    <!-- Mega Menu Dropdown Trigger for Crochet & Catalog -->
                     <li class="tab-item has-dropdown">
                         <a href="catalog.html" class="tab-link" id="tabCrochet">
                             Crochet & Catalog
@@ -41,8 +49,14 @@
                 </ul>
             </nav>
 
-            <!-- Right Actions: Search & Get In Touch CTA -->
+            <!-- Right Actions: Prominent Theme Pill, Search, Get In Touch CTA & Mobile Toggle -->
             <div class="nav-actions">
+                <!-- Prominent Top Nav Theme Pill Button -->
+                <button class="theme-nav-pill-btn" id="themeToggleBtn" aria-label="Toggle Dark/Light Mode" title="Switch Theme">
+                    <span class="theme-nav-icon">🌙</span>
+                    <span class="theme-nav-label">Dark Mode</span>
+                </button>
+
                 <button class="search-btn" id="searchBtn" aria-label="Search Products">
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                         <circle cx="11" cy="11" r="8"></circle>
@@ -59,46 +73,38 @@
                     <span class="btn-text">Get in touch</span>
                 </a>
 
+                <!-- Mobile Hamburger Toggle -->
                 <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle Navigation Menu">
                     <span></span><span></span><span></span>
                 </button>
             </div>
         </div>
 
-        <!-- MEGA MENU PANEL -->
+        <!-- MEGA MENU PANEL (DESKTOP) -->
         <div class="mega-menu-panel" id="megaMenuPanel">
             <div class="mega-menu-container">
-                <!-- Column 1: Core Collections -->
                 <div class="mega-column">
-                    <h3 class="mega-column-title active-underline">
-                        Primary Collections
-                    </h3>
+                    <h3 class="mega-column-title active-underline">Primary Collections</h3>
                     <ul class="mega-sub-list">
                         <li><a href="catalog.html?category=flowers"><span class="chevron">&gt;</span> 🌸 Flowers & Bouquets (50 items)</a></li>
-                        <li><a href="catalog.html?category=key-chains"><span class="chevron">&gt;</span> 🔑 Key Chains & Charms (16 items)</a></li>
+                        <li><a href="catalog.html?category=key-chains"><span class="chevron">&gt;</span> 🔑 Key Chains & Charms (17 items)</a></li>
                         <li><a href="catalog.html?category=potli-bags"><span class="chevron">&gt;</span> 👛 Traditional Potli Bags (5 items)</a></li>
                         <li><a href="catalog.html?category=tote-bags"><span class="chevron">&gt;</span> 👜 Tote & Side Bags (4 items)</a></li>
                     </ul>
                 </div>
 
-                <!-- Column 2: Accessories & Eyewear -->
                 <div class="mega-column">
-                    <h3 class="mega-column-title">
-                        Accessories & Cases
-                    </h3>
+                    <h3 class="mega-column-title">Accessories & Cases</h3>
                     <ul class="mega-sub-list">
                         <li><a href="catalog.html?category=specs-holder"><span class="chevron">&gt;</span> 🕶️ Specs & Eyewear Holders (7 items)</a></li>
                         <li><a href="catalog.html?category=sunglass-cover"><span class="chevron">&gt;</span> 👓 Sunglass & Phone Covers (14 items)</a></li>
-                        <li><a href="catalog.html?category=toys"><span class="chevron">&gt;</span> 🧸 Handcrafted Plush Toys</a></li>
-                        <li><a href="catalog.html?category=all"><span class="chevron">&gt;</span> ✨ Browse All 163 Handcrafted Items</a></li>
+                        <li><a href="catalog.html?category=toys"><span class="chevron">&gt;</span> 🧸 Handcrafted Plush Toys (1 item)</a></li>
+                        <li><a href="catalog.html?category=all"><span class="chevron">&gt;</span> ✨ Browse All 98 Handcrafted Items</a></li>
                     </ul>
                 </div>
 
-                <!-- Column 3: Handcrafted Pillars -->
                 <div class="mega-column">
-                    <h3 class="mega-column-title active-underline">
-                        Our Movement
-                    </h3>
+                    <h3 class="mega-column-title active-underline">Our Movement</h3>
                     <ul class="mega-sub-list">
                         <li><a href="#about-us-section"><span class="chevron">&gt;</span> Our Story & Tribute to Navya</a></li>
                         <li><a href="#about-us-section"><span class="chevron">&gt;</span> Three Pillars of Change</a></li>
@@ -109,6 +115,44 @@
             </div>
         </div>
     </header>
+
+    <!-- MOBILE NAVIGATION DRAWER -->
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+    <aside class="mobile-nav-drawer" id="mobileNavDrawer" aria-label="Mobile Navigation">
+        <div class="mobile-drawer-header">
+            <a href="index.html" class="brand-logo"><span class="logo-accent">KALA</span> KI DOR</a>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <button class="theme-nav-pill-btn" id="mobileThemeToggleBtn" aria-label="Toggle Theme" style="padding: 6px 12px; font-size: 0.8rem;">
+                    <span class="theme-nav-icon">🌙</span>
+                    <span class="theme-nav-label">Theme</span>
+                </button>
+                <button class="close-mobile-nav" id="closeMobileNavBtn" aria-label="Close Navigation Menu">&times;</button>
+            </div>
+        </div>
+        <div class="mobile-drawer-body">
+            <ul class="mobile-nav-list">
+                <li><a href="index.html" class="mobile-nav-link active">🏠 Home</a></li>
+                <li><a href="catalog.html" class="mobile-nav-link">✨ All Products (98 Items)</a></li>
+                <li class="mobile-nav-category-header">Collections</li>
+                <li><a href="catalog.html?category=flowers" class="mobile-nav-sublink">🌸 Flowers (50 items)</a></li>
+                <li><a href="catalog.html?category=key-chains" class="mobile-nav-sublink">🔑 Key Chains & Minion (17 items)</a></li>
+                <li><a href="catalog.html?category=potli-bags" class="mobile-nav-sublink">👛 Potli Bags (5 items)</a></li>
+                <li><a href="catalog.html?category=specs-holder" class="mobile-nav-sublink">🕶️ Specs Holder (7 items)</a></li>
+                <li><a href="catalog.html?category=sunglass-cover" class="mobile-nav-sublink">👓 Sunglass Cover (14 items)</a></li>
+                <li><a href="catalog.html?category=tote-bags" class="mobile-nav-sublink">👜 Tote Bags (4 items)</a></li>
+                <li><a href="catalog.html?category=toys" class="mobile-nav-sublink">🧸 Toys (1 item)</a></li>
+                <li class="mobile-nav-category-header">About & Social Cause</li>
+                <li><a href="#about-us-section" class="mobile-nav-link">📖 About Us & Story</a></li>
+                <li><a href="#contact" class="mobile-nav-link">💬 Get In Touch / Order</a></li>
+                <li><a href="#return-policy" class="mobile-nav-link">🛡️ Return Policy</a></li>
+            </ul>
+            <div class="mobile-drawer-footer">
+                <a href="https://wa.me/?text=Hi%20Kala%20ki%20Dor,%20I%20would%20like%20to%20place%20an%20order!" target="_blank" class="mobile-wa-btn">
+                    💬 Order via WhatsApp
+                </a>
+            </div>
+        </div>
+    </aside>
 
     <!-- SEARCH OVERLAY MODAL -->
     <div class="search-overlay" id="searchOverlay">
@@ -137,7 +181,7 @@
                     </p>
                     <div class="hero-cta-wrapper">
                         <a href="catalog.html" class="mint-pill-btn" id="findOutMoreBtn">
-                            Explore Full Catalog (163 Items) &rarr;
+                            Explore Full Catalog (98 Items) &rarr;
                         </a>
                     </div>
                 </div>
@@ -180,18 +224,23 @@
                     <strong>Kalakidor</strong> is more than just an art store; it's a living tribute. Founded by <strong>Ridhima Gupta</strong>, in memory of her beloved sister <strong>Navya</strong>.
                 </p>
 
-                <div class="tribute-story-card">
-                    <div class="quote-mark">“</div>
-                    <p class="story-paragraph highlight-quote">
-                        From the depths of our hearts, thank you for believing in <strong>Kala ki Dor</strong>. Kala ki Dor is more than a brand—it is a thread of love that began with my sister, <strong>Navya</strong>. A soul so pure, she now lives on in every knot, every colour, and every creation we share with the world. Though she left us too soon, her spirit still holds my hand through every stitch.
-                    </p>
-                    <p class="story-paragraph emotional-conclusion">
-                        When you support Kala ki Dor, you are not just buying handmade art. You are holding a memory. A heartbeat. A whisper of love that never fades.
-                    </p>
-                    <div class="founder-signature">
-                        <div class="signature-line"></div>
-                        <span class="founder-name">Ridhima Gupta</span>
-                        <span class="founder-role">Founder, Kala ki Dor</span>
+                <div class="tribute-story-card" style="display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 32px; align-items: center;">
+                    <div>
+                        <div class="quote-mark">“</div>
+                        <p class="story-paragraph highlight-quote">
+                            From the depths of our hearts, thank you for believing in <strong>Kala ki Dor</strong>. Kala ki Dor is more than a brand—it is a thread of love that began with my sister, <strong>Navya</strong>. A soul so pure, she now lives on in every knot, every colour, and every creation we share with the world. Though she left us too soon, her spirit still holds my hand through every stitch.
+                        </p>
+                        <p class="story-paragraph emotional-conclusion">
+                            When you support Kala ki Dor, you are not just buying handmade art. You are holding a memory. A heartbeat. A whisper of love that never fades.
+                        </p>
+                        <div class="founder-signature">
+                            <div class="signature-line"></div>
+                            <span class="founder-name">Ridhima Gupta</span>
+                            <span class="founder-role">Founder, Kala ki Dor</span>
+                        </div>
+                    </div>
+                    <div style="border-radius: 14px; overflow: hidden; border: 2px solid rgba(245, 158, 11, 0.45); box-shadow: 0 10px 25px rgba(0,0,0,0.35);">
+                        <img src="images/artisan-workshop-real.jpg" alt="Ridhima Gupta with craftswomen artisans" style="width: 100%; height: 100%; max-height: 320px; object-fit: cover; display: block;">
                     </div>
                 </div>
 
@@ -235,7 +284,7 @@
                         <h3>Be a Part of the Movement</h3>
                         <p>Whether you buy a product, volunteer your time, or simply share our story, you are helping us build a kinder world.</p>
                         <div class="movement-actions">
-                            <a href="catalog.html" class="mint-pill-btn">Browse Catalog (163 Items)</a>
+                            <a href="catalog.html" class="mint-pill-btn">Browse Catalog (98 Items)</a>
                             <a href="#contact" class="outline-pill-btn">Get In Touch / Volunteer</a>
                         </div>
                     </div>
@@ -271,16 +320,16 @@
 
                 <div class="single-product-card">
                     <div class="card-img-wrapper">
-                        <img src="images/products/key-chains/item_1.jpg" alt="Key Chains Collection" loading="lazy">
+                        <img src="images/products/key-chains/crochet-minion-keychain.jpg" alt="Key Chains Collection" loading="lazy">
                     </div>
                     <div class="card-content">
                         <div>
-                            <span class="card-category-label">16 Items</span>
+                            <span class="card-category-label">17 Items</span>
                             <h3 class="card-product-title">Key Chains & Charms</h3>
                         </div>
                         <div class="card-footer">
                             <span class="card-price">From ₹149</span>
-                            <a href="catalog.html?category=key-chains" class="card-view-btn">View All 16 &rarr;</a>
+                            <a href="catalog.html?category=key-chains" class="card-view-btn">View All 17 &rarr;</a>
                         </div>
                     </div>
                 </div>
@@ -537,7 +586,7 @@
         </div>
     </div>
 
-    <!-- Custom JavaScript -->
-    <script src="script.js"></script>
+    <!-- Custom JavaScript with Cache Buster -->
+    <script src="script.js?v=3.0"></script>
 </body>
 </html>
